@@ -1,0 +1,492 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: black;
+}
+
+/*NAV*/
+header{
+    justify-content: space-between;
+    background-color: black;
+    max-width: auto;
+    display: block;
+    display: flex;
+    padding: 10px 0;
+}
+header nav ul{
+    list-style: none;
+    gap: 70px;
+    display: flex;
+}
+header p{
+    font-weight: bold;
+    font-size: 20px;
+    color: #DFD3BD;
+    margin-left: 10px;
+}
+header nav ul a{
+    color:#DFD3BD;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header nav ul a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+/*FOOTER*/
+footer{
+    justify-content: space-between;
+    background-color: #DFD3BD;
+    display: flex;
+    padding: 20px 0px;
+}
+footer ul{
+    list-style: none;
+    gap: 130px;
+    display: flex;
+}
+footer a{
+    color:black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.nero{
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    padding: 20px 0;
+}
+.nero ul{
+    list-style: none;
+    gap: 130px;
+    display: flex;
+}
+.nero a{
+    color: white;
+    text-decoration: none;
+}
+.nero a:hover{
+    color: #DFD3BD;
+    text-decoration: underline;
+}
+
+
+
+/*MISURE GENERALI*/
+p{
+    color: white;
+    font-size: 15px;
+}
+
+.misure p{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+h1{
+    color: #DFD3BD;
+    font-size: 30px;
+}
+
+.titolo1 h1{
+    font-size: 100px;;
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+
+
+
+/*HOME*/
+
+.luna-home img{
+    width: 1275px;
+    height: 1500px;
+}
+
+
+.info{
+    padding:0px 150px 50px;
+    background-color: #DFD3BD;
+    padding-left: 30px;
+}
+.info h1{
+    font-size: 30px;
+    color: black;
+}
+.info h5{
+    font-size: 20px;
+}
+.info p{
+    color: black;
+}
+
+
+.container1{
+    max-width: 1120px;
+    grid-template-columns: 2fr 1fr;
+    display: flex;
+    gap: 20px;
+}
+.container1 .imagee{
+    padding-top: 30px;
+}
+.container1 .text1 h1{
+    font-size: 50px;
+}
+.container1 .text1 p{
+    font-size: 15px;
+    line-height: 1.4;
+}
+.container1 .text1 a{
+    color:white;
+    text-decoration: none;
+    margin-left: -15px;
+    font-size: 20px;
+}
+.container1 .text1 a:hover{
+    color: #DFD3BD;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/*MOON*/
+.container{
+    max-width: 1120px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 100px;
+    display: flex;
+    padding:0px 0px 50px;
+}
+.container .text{
+    width: 66%;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.container .text p{
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+}
+.container .image{
+    width: 33%;
+    padding-top: 100px;
+    width: 400px;
+    height: 513px;
+}
+.container .image1{
+    padding-top: 100px;
+}
+.container .image1 img{
+   height: 370px;
+    width: 520px;
+    padding-top: 80px;
+}
+.container .image2{
+    padding-top: 200px;
+}
+.container .image3{
+    padding-left: 30px;
+}
+
+
+.container .lunario p{
+    line-height: 0.5;
+}
+.fasi{
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+    padding: 40px 150px;
+}
+.fase1 p, .fase2 p{
+    font-size: 25px;
+    padding-left: 70px;
+}
+
+/*HISTORY*/
+
+.contenitore{
+    max-width: 1120px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 150px;
+    display: flex;
+    padding-left:0px;
+}
+.inizio, .t1 h5, .t2 h5 {
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.inizio p{
+    font-size: 13px;
+}
+
+.sbarco1 h1{
+    padding-top: 20px;
+    padding-left: 70px;
+    font-size: 40px;
+}
+
+.sbarco h1{
+   font-size: 40px; 
+   padding-top: 150px;
+   padding-left: 70px;
+}
+
+
+.contenitore1{
+    max-width: 1120px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 100px;
+    display: flex;
+}
+.contenitore1 h4{
+    color: white;
+    font-size: 25px;
+}
+.separator{
+    border: none;
+    height: 3px;
+    background-color: white;
+    margin: 130px 0;
+
+}
+
+.contenitore1 .imm1 img{
+    width: 33%;
+    padding-top: 30px;
+    width: 390px;
+    height: 390px;
+}
+.contenitore1 .imm2 img{
+    width: 33%;
+    padding-top: 100px;
+    width: 390px;
+    height: 217px;
+}
+.contenitore1 .imm3 img{
+    width: 33%;
+    width: 450px;
+    height: 630px;
+}
+
+.astronauta img{
+    width: 1270px;
+    height: 1280px;
+}
+
+.equipaggiamento{
+    max-width: 1120px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 55px;
+    display: flex; 
+}
+
+.tuta img{
+    padding-top: 20px;
+}
+
+.immagini img{
+   width: 310px;
+   height: 280px;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+/*TOKNOW*/
+.toknow h4{
+    color: white;
+    font-size: 25px;
+}
+.toknow p{
+    font-size: 15px;
+}
+.toknow1, .toknow2, .toknow3{
+    max-width: 1120px;
+    grid-template-columns: 2fr 1fr;
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+.barattolo{
+    max-width: 1120px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 100px;
+    display: flex;
+}
+
+.titolo{ 
+    width: 66%;
+    padding-top: 100px;
+    margin-left: 90px;
+}
+
+.titolo h1{
+   font-size: 70px;
+   line-height: 1.4;
+}
+.luna img{
+    width: 665px;
+    height: 889px;
+
+}
+
+.sottotitolo h1{
+    font-size: 50px;
+    padding: 40px;
+}
+
+
+
+/*ENTERTAINMENT*/
+ main{
+
+        width: 100%;
+        height: 100%;
+    }
+.container-images {
+        width: 1200px;
+        margin: 0 auto;
+        height: 900px;   
+    }
+.row-images {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    .image-container {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .popup {
+        width: 300px;
+        display: none; /* Nasconde la finestra a comparsa inizialmente */
+        position: relative;
+        transform: translateX(-50%);
+        background-color: #DFD3BD;
+        color: #000000;
+        padding: 10px;
+        border-radius: 5px;
+        white-space: nowrap;
+        padding-right: 400px;
+        z-index: 1;
+        bottom: -20px; /* Posiziona sopra l'immagine */
+    left: 75%;
+    }
+
+    .popup-bottom {
+        width: 300px;
+        display: none; /* Nasconde la finestra a comparsa inizialmente */
+        position: relative;
+        transform: translateX(-50%);
+        background-color: #DFD3BD;
+        color: #000000;
+        padding: 10px;
+        border-radius: 5px;
+        white-space: nowrap;
+        padding-right: 400px;
+        z-index: 1;
+        top: -700px; 
+        left: 75%;
+        
+    }
+
+    .popup-bottom img{
+        width: 100%;
+         margin-bottom: 25px;
+         display: flex;
+         justify-content: center;
+    }
+
+    .col-40:hover .popup-bottom {
+        display: block; 
+    }
+    
+    .popup img{
+        width: 100%;
+         margin-bottom: 25px;
+         display: flex;
+         justify-content: center;
+    }
+
+    .col-40:hover .popup {
+        display: block; 
+    }
+    
+
+    .col-40 {
+        width: 40%;
+        height: 300px;
+        border-radius: 40%;
+    }
+    .col-40 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        border:3px solid #DFD3BD;
+
+    }
+
+    .col-40 img {
+        display:block;
+    }
+    .col-40 p{
+        text-align: center;
+        font-size: 30px;
+        color: #DFD3BD;
+    }
+
+#intro{
+
+    font-size: 35px;
+    color: #DFD3BD;
+}    
+   
+
+p{
+    color: white;
+    font-size: 15px;
+}
+
+.misure p{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+h2{
+    color: #DFD3BD;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.titolo1 h1{
+    font-size: 100px;;
+    margin-top: 0;
+    padding-left: 20px;
+}
+
