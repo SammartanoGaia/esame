@@ -13,6 +13,8 @@ header{
     padding: 10px 0;
     color:#DFD3BD;
     text-decoration: none;
+    color: white;
+    text-decoration: underline;
 }
 header nav ul{
     list-style: none;
