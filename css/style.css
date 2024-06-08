@@ -11,8 +11,6 @@ header{
     display: block;
     display: flex;
     padding: 10px 0;
-    text-decoration: none;
-    color:#DFD3BD;
     
 }
 header nav ul{
