@@ -13,6 +13,26 @@ header{
     padding: 10px 0;
     
 }
+header nav1 ul1{
+    list-style: none;
+    gap: 70px;
+    display: flex;
+}
+header p{
+    font-weight: bold;
+    font-size: 20px;
+    color: #DFD3BD;
+    margin-left: 10px;
+}     
+header nav1 ul1 a{
+    color:#DFD3BD;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header nav1 ul1 a:hover{
+    color:#ffffff;
+    text-decoration: underline;
+}
 header nav ul{
     list-style: none;
     gap: 70px;
