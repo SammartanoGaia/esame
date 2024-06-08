@@ -5,6 +5,7 @@ body{
 
 /*NAV*/
 header{
+    @media screen and (min-width: 321px) and (max-width: 1200px)
     justify-content: space-between;
     background-color: black;
     max-width: auto;
