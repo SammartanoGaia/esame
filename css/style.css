@@ -388,11 +388,6 @@ h1{
     height: 630px;
 }
 
-.astronauta img{
-    width: 1270px;
-    height: 1280px;
-}
-
 .equipaggiamento{
     max-width: 1120px;
     margin: auto;
@@ -410,6 +405,27 @@ h1{
    height: 280px;
    padding: 10px;
    margin-bottom: 20px;
+}
+
+.moonexploration {
+    position: relative;;
+}
+.testoo{
+    position: absolute;
+    color: white;
+}
+.astronauta img{
+    width: 1270px;
+    height: 1280px;
+    display: block;
+}
+.center-text{
+    text-align: center;
+    font-size: 80px;
+    padding-left: 440px;
+}
+.testoo p{
+    padding-left: 470px;
 }
 
 /*TOKNOW*/
