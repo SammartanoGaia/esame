@@ -134,7 +134,7 @@ h1{
 
 
 .container1{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     grid-template-columns: 2fr 1fr;
     display: flex;
     gap: 20px;
@@ -173,7 +173,7 @@ h1{
 
 /*MOON*/
 .container{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
@@ -220,7 +220,7 @@ h1{
 }
 
 .containerr{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
@@ -262,7 +262,7 @@ h1{
 
 
 .contenitore33{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     margin: auto;
     grid-template-columns: 2fr 1fr;
     display: flex;
@@ -297,7 +297,7 @@ h1{
 /*HISTORY*/
 
 .contenitore{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 150px;
@@ -332,7 +332,7 @@ h1{
 
 
 .contenitore1{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
@@ -377,7 +377,7 @@ h1{
 }
 
 .equipaggiamento{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 55px;
@@ -404,7 +404,7 @@ h1{
     font-size: 15px;
 }
 .toknow1, .toknow2, .toknow3{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     grid-template-columns: 2fr 1fr;
     display: flex;
     gap: 20px;
@@ -413,7 +413,7 @@ h1{
 }
 
 .barattolo{
-    max-width: 1120px;
+    @media (max-width: 1120px);
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
