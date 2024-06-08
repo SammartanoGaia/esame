@@ -5,7 +5,6 @@ body{
 
 /*NAV*/
 header{
-    @media screen and (min-width: 321px) and (max-width: 1200px)
     justify-content: space-between;
     background-color: black;
     max-width: auto;
@@ -132,7 +131,7 @@ h1{
 
 
 .container1{
-    @media (max-width: 1120px);
+    max-width: 1120px;
     grid-template-columns: 2fr 1fr;
     display: flex;
     gap: 20px;
@@ -171,7 +170,7 @@ h1{
 
 /*MOON*/
 .container{
-    @media (max-width: 1120px);
+  max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
@@ -218,7 +217,7 @@ h1{
 }
 
 .containerr{
-    @media (max-width: 1120px);
+    max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
@@ -260,7 +259,7 @@ h1{
 
 
 .contenitore33{
-    @media (max-width: 1120px);
+    max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     display: flex;
@@ -295,7 +294,7 @@ h1{
 /*HISTORY*/
 
 .contenitore{
-    @media (max-width: 1120px);
+   max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 150px;
@@ -330,7 +329,7 @@ h1{
 
 
 .contenitore1{
-    @media (max-width: 1120px);
+    max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
@@ -375,7 +374,7 @@ h1{
 }
 
 .equipaggiamento{
-    @media (max-width: 1120px);
+    max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 55px;
@@ -402,7 +401,7 @@ h1{
     font-size: 15px;
 }
 .toknow1, .toknow2, .toknow3{
-    @media (max-width: 1120px);
+    max-width: 1120px;
     grid-template-columns: 2fr 1fr;
     display: flex;
     gap: 20px;
@@ -411,7 +410,7 @@ h1{
 }
 
 .barattolo{
-    @media (max-width: 1120px);
+    max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
