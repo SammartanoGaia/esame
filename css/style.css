@@ -189,24 +189,9 @@ h1{
 .sotto{
     padding-top: 1500px;
 }
-
-.info{
-    padding:0px 150px 50px;
-    background-color: #DFD3BD;
-    padding-left: 30px;
+.caratteristiche{
+    padding-top: 40px;
 }
-.info h1{
-    font-size: 30px;
-    color: black;
-}
-.info h5{
-    font-size: 20px;
-}
-.info p{
-    color: black;
-}
-
-
 .container1{
     max-width: 1120px;
     grid-template-columns: 2fr 1fr;
@@ -235,8 +220,6 @@ h1{
     color: #DFD3BD;
     text-decoration: underline;
 }
-
-
 .lune p{
     font-size: 12px;
 }
@@ -246,6 +229,21 @@ h1{
 
 
 /*MOON*/
+.info{
+    padding:0px 150px 50px;
+    background-color: #DFD3BD;
+    padding-left: 30px;
+}
+.info h1{
+    font-size: 30px;
+    color: black;
+}
+.info h5{
+    font-size: 20px;
+}
+.info p{
+    color: black;
+}
 .container{
   max-width: 1120px;
     margin: auto;
