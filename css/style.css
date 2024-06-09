@@ -617,3 +617,19 @@ h2{
     background-color: white;
     margin: -20px 200px;
 }
+
+
+/*PRIVACY*/
+.sottoparagrafi h4{
+    color: #DFD3BD;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.testi{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.privacypolicy{
+    font-size: 50px;
+    padding-left: 10px;
+}
