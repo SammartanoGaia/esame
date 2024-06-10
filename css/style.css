@@ -788,3 +788,28 @@ h2{
     font-size: 50px;
     padding-left: 10px;
 }
+/*Chi siamo*/
+
+.GGM{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+
+}
+
+.popup {
+    width: 300px;
+    display: none; 
+    position: relative;
+    transform: translateX(-50%);
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    padding-right: 400px;
+    z-index: 1;
+    bottom: -20px; 
+left: 75%;
+}
