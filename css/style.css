@@ -454,7 +454,17 @@ button {
 }
 
 .imm6 img{
-    padding-top: 50px;
+    padding-top: 100px;
+    width: 407px;
+    height: 239px;
+}
+.imm7 {
+    padding-left: 50px;
+}
+.imm8{
+    padding-top: 125px;
+    width: 407px;
+    height: 239px;
 }
 
 
