@@ -170,9 +170,8 @@ h1{
 }
 .MOON {
     position: absolute;
-    top: 75%;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -2.9%);
 }
 
 
@@ -187,7 +186,7 @@ h1{
 }
 
 .sotto{
-    padding-top: 1500px;
+    padding-top: 1800px;
 }
 
 .lune {
