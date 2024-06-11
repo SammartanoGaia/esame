@@ -613,7 +613,7 @@ button {
 .titolo{ 
     width: 66%;
     padding-top: 100px;
-    margin-left: 90px;
+    margin-left: 10px;
 }
 
 .titolo h1{
@@ -621,8 +621,8 @@ button {
    line-height: 1.4;
 }
 .luna img{
-    width: 665px;
-    height: 889px;
+    width: 750px;
+    height: 900px;
 
 }
 
@@ -630,6 +630,8 @@ button {
     font-size: 50px;
     padding: 40px;
 }
+
+
 
 
 
