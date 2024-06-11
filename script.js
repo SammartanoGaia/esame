@@ -44,3 +44,32 @@ function openPopup3(overlay3) {
 function closePopup3(overlay3) {
     document.getElementById('overlay3').style.display = 'none';
 }
+
+
+
+
+function openPopup4(overlay4) {
+    document.getElementById('overlay4').style.display = 'flex';
+}
+
+function closePopup4(overlay4) {
+    document.getElementById('overlay4').style.display = 'none';
+}
+
+
+function openPopup5(overlay5) {
+    document.getElementById('overlay5').style.display = 'flex';
+}
+
+function closePopup5(overlay5) {
+    document.getElementById('overlay5').style.display = 'none';
+}
+
+
+function openPopup6(overlay6) {
+    document.getElementById('overlay6').style.display = 'flex';
+}
+
+function closePopup6(overlay6) {
+    document.getElementById('overlay6').style.display = 'none';
+}
