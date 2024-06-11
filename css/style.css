@@ -217,6 +217,9 @@ h1{
 
 
 /*MOON*/
+.sposta{
+    padding-top: 100px;
+}
 .info{
     padding:0px 150px 50px;
     background-color: #DFD3BD;
