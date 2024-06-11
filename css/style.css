@@ -333,6 +333,7 @@ h1{
     grid-template-columns: 2fr 1fr;
     display: grid;
     padding: 0px 130px 80px 130px;
+     padding-left: 230px;
 }
 
 
