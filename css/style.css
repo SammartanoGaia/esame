@@ -636,146 +636,7 @@ button {
 
 
 /*ENTERTAINMENT*/
- main{
 
-        width: 100%;
-        height: 100%;
-    }
-.container-images {
-        width: 1200px;
-        margin: 0 auto;
-        height: 900px;   
-    }
-.row-images {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-       justify-content: space-between;
-    }
-    .image-container {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .image {
-        width: 100%;
-        height: auto;
-    }
-    
-    .popup {
-        width: 300px;
-        display: none; 
-        position: relative;
-        transform: translateX(-50%);
-        background-color: #DFD3BD;
-        color: #000000;
-        padding: 10px;
-        border-radius: 5px;
-        white-space: nowrap;
-        padding-right: 400px;
-        z-index: 1;
-        bottom: -20px; 
-    left: 75%;
-    }
-
-    .popup-bottom {
-        width: 300px;
-        display: none;
-        position: relative;
-        transform: translateX(-50%);
-        background-color: #DFD3BD;
-        color: #000000;
-        padding: 10px;
-        border-radius: 5px;
-        white-space: nowrap;
-        padding-right: 400px;
-        z-index: 1;
-        top: -700px; 
-        left: 75%;
-        
-    }
-
-    .popup-bottom img{
-        width: 100%;
-         margin-bottom: 25px;
-         display: flex;
-         justify-content: center;
-    }
-
-    .col-40:hover .popup-bottom {
-        display: block; 
-    }
-    
-    .popup img{
-        width: 100%;
-         margin-bottom: 25px;
-         display: flex;
-         justify-content: center;
-    }
-
-    .col-40:hover .popup {
-        display: block; 
-    }
-    
-
-    .col-40 {
-        width: 40%;
-        height: 300px;
-        border-radius: 40%;
-    }
-    .col-40 img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30px;
-        border:3px solid #DFD3BD;
-
-    }
-
-    .col-40 img {
-        display:block;
-    }
-    .col-40 p{
-        text-align: center;
-        font-size: 30px;
-        color: #DFD3BD;
-    }
-
-#intro{
-
-    font-size: 35px;
-    color: #DFD3BD;
-}    
-   
-
-p{
-    color: white;
-    font-size: 15px;
-}
-
-.misure p{
-    font-size: 30px;
-    margin-top: 5px;
-}
-
-h2{
-    color: #DFD3BD;
-    font-size: 50px;
-    margin-left: 50px;
-}
-
-.titolo1 h1{
-    font-size: 100px;;
-    margin-top: 0;
-    padding-left: 20px;
-}
-  
-.separator1{
-    border: none;
-    height: 3px;
-    background-color: white;
-    margin: -20px 200px;
-}
 
 
 /*PRIVACY*/
@@ -792,7 +653,11 @@ h2{
     font-size: 50px;
     padding-left: 10px;
 }
-
+.sottoo{
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-bottom: 30px;
+}
 
 
 /*CHI SIAMO*/
