@@ -459,12 +459,15 @@ button {
     height: 239px;
 }
 .imm7 {
-    padding-left: 50px;
+    padding-left: 70px;
 }
 .imm8{
-    padding-top: 125px;
+    padding-top: 100px;
     width: 407px;
     height: 239px;
+}
+.imm9 {
+    padding-left: 50px;
 }
 
 
