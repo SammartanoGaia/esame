@@ -7,31 +7,9 @@ body{
 header{
     justify-content: space-between;
     background-color: black;
-    max-width: auto;
-    display: block;
-    display: flex;
-    padding: 10px 0;
-    
-}
-header nav1 ul1{
-    list-style: none;
-    gap: 70px;
-    display: flex;
-}
-header p{
-    font-weight: bold;
-    font-size: 20px;
-    color: #DFD3BD;
-    margin-left: 10px;
-}     
-header nav1 ul1 a{
-    color:#DFD3BD;
-    text-decoration: none;
-    margin-right: 10px;
-}
-header nav1 ul1 a:hover{
-    color:#ffffff;
-    text-decoration: underline;
+    width: 100%;
+    position: fixed;
+   top: 0;
 }
 header nav ul{
     list-style: none;
@@ -43,19 +21,19 @@ header p{
     font-size: 20px;
     color: #DFD3BD;
     margin-left: 10px;
+    margin-top: -20px;
 }
 header nav ul a{
     color:#DFD3BD;
     text-decoration: none;
     margin-right: 10px;
+    font-weight: bold;
+    padding-left: 80px;
 }
 header nav ul a:hover{
     color: white;
     text-decoration: underline;
 }
-
-
-
 
 /*FOOTER*/
 footer{
