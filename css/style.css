@@ -168,7 +168,9 @@ h1{
 .sotto{
     padding-top: 1500px;
 }
-
+.misure{
+     padding-left:1500px;
+}
 .lune {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Crea 3 colonne di uguale larghezza */
