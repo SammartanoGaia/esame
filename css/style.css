@@ -6,17 +6,18 @@ body{
 /*NAV*/
 header{
     justify-content: space-between;
-    background-color: black;
     width: 100%;
     position: fixed;
-   top: 0;
-     z-index: 1000;
+   top: 0px;
+   z-index: 1000;
    background-color: rgba(0, 0, 0, 0.8);
 }
+
 header nav ul{
     list-style: none;
     gap: 70px;
     display: flex;
+    padding-top: 5px
 }
 header p{
     font-weight: bold;
@@ -37,6 +38,7 @@ header nav ul a:hover{
     text-decoration: underline;
 }
 
+
 /*FOOTER*/
 footer{
     justify-content: space-between;
@@ -44,6 +46,7 @@ footer{
     display: flex;
     padding: 20px 0px;
     margin: auto;
+    max-width: 100%;
 }
 footer ul{
     list-style: none;
@@ -86,10 +89,6 @@ p{
     font-size: 18px;
 }
 
-.misure p{
-    font-size: 30px;
-    margin-top: 5px;
-}
 
 h1{
     color: #DFD3BD;
@@ -97,10 +96,41 @@ h1{
 }
 
 .titolo1 h1{
-    font-size: 100px;;
+    font-size: 100px;
     margin-top: 0;
-    padding-left: 20px;
+    padding-left: 40px;
 }
+
+.misure {
+    width: 100%;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cool {
+    width: 25%;
+}
+
+.cool1 {
+    width: 50%;
+}
+
+.cool span {
+    padding: 0px 30px;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.white {
+    color: white;
+}
+
+
 
 
 
@@ -167,20 +197,23 @@ h1{
 
 .sotto{
     padding-top: 1500px;
-    }
-    
+}
+.sotto-home{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.caratteristiche{
+    padding-top: 40px;
+}
 .lune {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Crea 3 colonne di uguale larghezza */
+    grid-template-columns: repeat(4, 1fr); 
 }
 
 .grid-item {
     padding-left: 15px;
     padding-bottom: 20px;
     box-sizing: border-box;
-}
-.caratteristiche{
-    padding-top: 40px;
 }
 .container1{
     max-width: 1120px;
@@ -189,31 +222,35 @@ h1{
     gap: 20px;
 }
 .container1 .imagee{
-    padding-top: 60px;
+    padding-top: 70px;
 }
 .container1 .text1 h1{
     font-size: 40px;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 .container1 .text1 p{
     font-size: 15px;
     line-height: 1.4;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 .container1 .text1 a{
     color:white;
     text-decoration: none;
-    margin-left: 25px;
+    margin-left: 35px;
     font-size: 20px;
 }
 .container1 .text1 a:hover{
     color: #DFD3BD;
     text-decoration: underline;
 }
-.lune p{
+
+
+.container1 .lune p{
     font-size: 12px;
 }
-
+.info1{
+    padding-bottom: 40px;
+}
 
 
 
@@ -238,7 +275,7 @@ h1{
     color: black;
 }
 .container{
-  max-width: 1120px;
+    max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 100px;
@@ -365,13 +402,13 @@ button {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Sfondo trasparente */
+    background-color: rgba(0, 0, 0, 0.9); 
     justify-content: center;
     align-items: center;
 }
 
 .popup {
-    background-color: rgba(255, 255, 255, 0.9); /* Sfondo popup trasparente */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
@@ -408,12 +445,25 @@ button {
 }
 .parole p{
     font-size: 15px;
+    padding-left: 70px;
 }
 
 .parole{
     margin: auto;
     grid-template-columns: 2fr 1fr;
     display: flex;
+}
+.pulsante{
+    padding-left: 180px;
+}
+.pulsante1{
+    padding-left: 150px;
+}
+.pulsante2{
+    padding-left: 120px;
+}
+.foto img{
+    padding-left: 70px;
 }
 .Immagine img{
     width: 440px;
@@ -434,7 +484,6 @@ button {
     height: 233px;
     padding-top: 50px;
 }
-
 .imm6 img{
     padding-top: 100px;
     width: 407px;
@@ -453,16 +502,13 @@ button {
 }
 
 
-
-
-
 /*HISTORY*/
 .sposta1{
     padding-top: 80px;
 }
 
 .contenitore{
-   max-width: 1120px;
+    max-width: 1120px;
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 150px;
@@ -536,6 +582,8 @@ button {
     height: 630px;
 }
 
+
+
 .equipaggiamento{
     max-width: 1120px;
     margin: auto;
@@ -593,7 +641,7 @@ button {
 
 .grid-item h4 {
     margin-top: 0;
-    color: white;
+    color:#DFD3BD;
     font-size: 25px;
 }
 
@@ -632,10 +680,131 @@ button {
 }
 
 
-
-
-
 /*ENTERTAINMENT*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   padding-left: 250px;
+}
+
+.col-50 {
+    width: calc(50% - 44px);
+    margin: 20px;
+}
+
+.col-50 img {
+    border: 2px solid #DFD3BD;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.container-button {
+    padding-left: 70px;
+}
+
+.pl-130 {
+    padding-left: 130px;
+}
+
+.pl-90 {
+    padding-left: 90px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.ml-100 {
+    margin-left: 100px;
+}
+
+.pl-80 {
+    padding-left: 80px;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
+.songs {
+    width: 1200px;
+}
+
+button {
+    margin: 5px;
+
+}
+
+.titolo h1{
+    color: #DFD3BD;
+    font-size: 50px;
+    padding-left: 20px;
+}
+.titolo p{
+    padding-left: 20px;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content {
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.testo-film p {
+    color: white;
+    font-size: 18px;
+}
+
+.testo-film h1 {
+    color: #DFD3BD;
+    font-size: 30px;
+}
+
+.Immagine7 img {
+    height: 250px;
+}
+.Immagine8 img{
+    width: 300px;
+    height: 250px;
+}
+
 
 
 
@@ -659,8 +828,9 @@ button {
     padding-bottom: 30px;
 }
 
-
 /*CHI SIAMO*/
+
+
 .overlay {
     display: none;
     position: fixed;
@@ -669,10 +839,12 @@ button {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Sfondo trasparente */
+    background-color: rgba(0, 0, 0, 0.9); 
     justify-content: center;
     align-items: center;
 }
+
+
 .Immagine5 {
     width: 270px;
     height: 200px;
@@ -684,6 +856,7 @@ button {
 .presentazione p{
     padding-left: 20px;
 }
+
 .presentazione h5{
     color: white;
     font-size: 20px;
@@ -697,15 +870,18 @@ button {
     font-size: 15px;
     padding-left: 20px;
 }
+
 .parole1{
     margin: auto;
     grid-template-columns: 2fr 1fr;
     display: flex;
 }
+
 .Immagine6 img{
     width: 600px;
     height: 450px;
 }
+
 .tutto {
     padding-left: 20px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -716,7 +892,6 @@ button {
 .button1{
     height: 10px;
 }
-
 .sotto6{
     padding-top: 50px;
 }
