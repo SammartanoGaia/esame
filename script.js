@@ -7,7 +7,11 @@ function closePopup(overlay) {
     document.getElementById('overlay').style.display = 'none';
 }
 
+<<<<<<< HEAD
 
+=======
+// Chiudi il pop-up quando l'utente clicca fuori dal contenuto del pop-up
+>>>>>>> bfd63524de251925ee5efe7b5862c259c3fc87c1
 window.onclick = function(event) {
     let popups = document.getElementsByClassName('popup');
     for (let i = 0; i < popups.length; i++) {
@@ -72,4 +76,8 @@ function openPopup6(overlay6) {
 
 function closePopup6(overlay6) {
     document.getElementById('overlay6').style.display = 'none';
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> bfd63524de251925ee5efe7b5862c259c3fc87c1
