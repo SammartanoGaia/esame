@@ -1805,6 +1805,7 @@ gap: 25px;
 
 
 /*ENTERTAINMENT*/
+/*ENTERTAINMENT*/
 @media screen and (max-width:1400px) {
     .col-50 {
         width: calc(50% - 44px);
@@ -1814,7 +1815,9 @@ gap: 25px;
 }
 
 @media screen and (max-width: 1200px) {
- 
+    header nav ul {
+        gap: 20px;
+    }
 
     .col-50 {
         width: calc(50% - 44px);
@@ -1822,15 +1825,27 @@ gap: 25px;
     }
 }
 
-@media screen and (max-width: 992px) {
-  
+@media screen and (max-width:992px) {
+    header nav ul {
+        gap: 0px;
+    }
 
     .col-50 {
         width: 33%;
     }
 
+}
+
+
 @media screen and (max-width:768px) {
-  
+    header nav ul a {
+        color: #DFD3BD;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight: bold;
+        padding-left: 20px;
+
+    }
 
     .col-50 {
         width: 100%;
@@ -1840,7 +1855,13 @@ gap: 25px;
 }
 
 @media screen and (max-width:576px) {
-  
+    header nav ul a {
+        color: #DFD3BD;
+        text-decoration: none;
+        margin-right: 5px;
+        font-weight: bold;
+        padding-left: 5px;
+    }
 
     .col-50 {
         width: 100%;
@@ -1848,4 +1869,17 @@ gap: 25px;
     }
 
 }
+@media screen and (max-width: 480px) {
+    .Immagine8{
+display: inline-block;
+padding: 35px;
+    }
+    .testo-film {
+        display: inline-block;
+    }
+    .close {
+        margin-left: 80%;
+        font-size: 50px;
+    }
+    
 }
