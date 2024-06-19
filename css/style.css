@@ -1829,4 +1829,23 @@ gap: 25px;
         width: 33%;
     }
 
+@media screen and (max-width:768px) {
+  
+
+    .col-50 {
+        width: 100%;
+        margin-left: 230px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+  
+
+    .col-50 {
+        width: 100%;
+        margin-left: 80px;
+    }
+
+}
 }
