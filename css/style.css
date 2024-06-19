@@ -906,6 +906,8 @@ button {
 /* MEDIA QUERIES */
 
 /*HOME*/
+
+/*HOME*/
 @media screen and (max-width: 1400px) {
     header nav ul {
         gap: 90px;
@@ -938,7 +940,6 @@ button {
     padding-left: 20px;
    }
 }
-
 @media screen and (max-width: 1200px) {
     header nav ul {
         gap: 50px;
@@ -965,7 +966,6 @@ button {
     }
    
 }
-
 @media screen and (max-width: 992px) {
     header nav ul a {
         padding-left: 50px;
@@ -999,8 +999,6 @@ button {
         padding-left: 2px;
     }
 }
-
-
 @media screen and (max-width: 768px) {
     header nav ul a {
         padding-left: 3px;
@@ -1053,7 +1051,6 @@ button {
         font-size: 20px;
     }
 }
-
 @media screen and (max-width: 576px) {
     header nav ul{
         gap: 47px;
@@ -1112,7 +1109,6 @@ button {
         font-size: 15px;
     }
 }
-
 @media screen and (max-width: 480px) {
     header nav ul{
         gap: 35px;
@@ -1174,4 +1170,663 @@ button {
     .caratteristiche p{
         font-size: 12px;
     }
+    .info{
+    padding:0px 0px 0px;
+    padding-left: 0px;
+}
+}
+
+
+
+
+
+/*MOON*/
+@media screen and (max-width: 1400px){
+    .nero ul{
+        gap: 160px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .nero ul{
+        gap: 110px;
+    }
+    .containerr{
+        padding-left: 75px;
+    }
+    .image0 img{
+        padding-top: 40px;
+    }
+    .image img{
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+    .image2 img{
+        padding-top: 50px;
+    }
+    .image3 img{
+        padding-top: 30px;
+    }
+    .overlay {
+        top: 400px;
+    }
+    
+}
+@media screen and (max-width: 992px){
+  
+.contenitore33 .testi p{
+    font-size: 17px;
+    
+}
+.contenitore33 .moon img{
+    width: 550px;
+    height: 700px;
+    padding-left: 10px;
+}
+.container .text p{
+    font-size: 15px;
+}
+.image0 img{
+    width: 350px;
+    height: 400px;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+.containerr{
+    padding-left: 55px;
+}
+.containerr .text p{
+    font-size: 15px;
+}
+.image img{
+    width: 300px;
+    height: 350px;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+.image1 img{
+    width: 400px;
+    height: 250px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+.image2 img{
+    width: 380px;
+    height: 120px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.image3 img{
+    width: 300px;
+    height: 450px;
+    padding-top: 30px;
+}
+.image4 img{
+ width: 250px;
+ height: 380px;
+ padding-top: 50px;
+ padding-right: 50px;
+}
+
+.nero ul{
+    gap: 70px;
+}
+.parole .Immagine img{
+    width: 300px;
+    height: 250px;
+    padding-top: 30px;
+}
+.parole .Immagine1 img{
+    width: 350px;
+    height: 200px;
+    padding-top: 50px;
+}
+.parole .textt h1{
+    font-size: 35px;
+}
+.parole .textt p{
+    font-size: 12px;
+}
+.parole .Immagine3 img{
+width: 350px;
+height: 200px;
+padding-top: 50px;
+}
+.overlay {
+    top: 150px;
+}
+.info{
+    padding:0px 0px 0px;
+    padding-left: 0px;
+}
+.container .text{
+    padding-right: 40px;
+}
+}
+@media screen and (max-width: 768px){
+    .titolo1 h1{
+        font-size: 70px;
+    }
+   .contenitore33 .testi p{
+        font-size: 15px;
+        
+    }
+   .contenitore33 .moon img{
+        width: 400px;
+        height: 500px;
+        padding-left: 10px;
+    }
+    .nascita p{
+        padding-top: 10px;
+    }
+    .lunario1 p{
+        padding-top: 40px;
+    }
+    .altopiani p{
+        padding-top: 60px;
+    }
+    .fasilunari p{
+        padding-top: 70px;
+    }
+    .eclissi p{
+        padding-top: 60px;
+    }
+   .info .text h1{
+    font-size: 35px;
+   }
+   .info .text p{
+    font-size: 12px;
+   }
+   .image0 img{
+    width: 200px;
+    height: 250px;
+    padding-top: 140px;
+    padding-left: 0px;
+    padding-right: 80px;
+}
+  .info {
+    padding-left: 0px;
+   }
+   .containerr .text h1{
+    font-size: 35px;
+   }
+   .containerr .text p{
+    font-size: 12px;
+   }
+   .image img{
+    width: 200px;
+    height: 250px;
+    padding-top: 100px;
+}
+.image1 img{
+    width: 330px;
+    height: 200px;
+    padding-top: 200px;
+    padding-right: 50px;
+}
+.info{
+    padding:0px 0px 0px;
+    padding-left: 0px;
+}
+.foto img{
+   padding-left: 50px;
+}
+.pulsante {
+    padding-left: 150px;
+}
+.imm8 img{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 330px;
+}
+.pulsante1{
+    padding-left: 120px;
+}
+.imm7 img{
+   width: 200px;
+   padding-bottom: 40px;
+   padding-top: 20px;
+}
+.imm6 img{
+    width: 350px;
+    height: 180px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.fasi{
+    padding: 0px 0px 90px 0px;
+}
+.pulsante2{
+    padding-left: 90px;
+}
+.overlay {
+    top: 0px;
+}
+.parole .Immagine img{
+    width: 250px;
+    height: 200px;
+    padding-top: 50px;
+}
+.parole .textt h1{
+    font-size: 25px;
+}
+.parole .textt h5{
+    font-size: 15px;
+}
+.close {
+    font-size: 30px;
+    padding-right: 50px;
+}
+.parole .Immagine2 img{
+    width: 180px;
+    height: 170px;
+}
+.image2 img{
+    width: 300px;
+    height: 100px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.image3 img{
+    width: 200px;
+    height: 300px;
+    padding-top: 80px;
+}
+.image4 img{
+ width: 150px;
+ height: 230px;
+ padding-top: 80px;
+ padding-right: 70px;
+}
+.nero ul{
+gap: 40px;
+}
+
+
+
+
+
+}
+@media screen and (max-width: 576px){
+    .titolo1 h1{
+        font-size: 50px;
+    }
+   .contenitore33 .testi p{
+        font-size: 12px;
+    }
+   .contenitore33 .moon img{
+        width: 300px;
+        height: 400px;
+        padding-left: 20px;
+    }
+    .nascita p{
+        padding-top: 10px;
+    }
+    .lunario1 p{
+        padding-top: 30px;
+    }
+    .altopiani p{
+        padding-top: 40px;
+    }
+    .fasilunari p{
+        padding-top: 40px;
+    }
+    .eclissi p{
+        padding-top: 30px;
+    }
+   .info .text h1{
+    font-size: 30px;
+   }
+   .info .text p{
+    font-size: 12px;
+   }
+   .image0 img{
+    width: 200px;
+    height: 250px;
+    padding-top: 140px;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+.container{
+    gap: 0;
+}
+.containerr{
+    gap: 0;
+}
+  .info {
+    padding-left: 0px;
+   }
+   .containerr .text h1{
+    font-size: 30px;
+
+   }
+   .containerr .text p{
+    font-size: 12px;
+   }
+   .image img{
+    width: 200px;
+    height: 250px;
+    padding-top: 100px;
+    padding-left: 35px;
+}
+.image1 img{
+    width: 200px;
+    height: 150px;
+    padding-top: 200px;
+    padding-right: 50px;
+}
+.info{
+    padding:0px 0px 0px;
+    padding-left: 0px;
+}
+.foto img{
+   padding-left: 50px;
+   width: 200px;
+   height: 170px;
+}
+.pulsante {
+    padding-left: 100px;
+}
+.imm8 img{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 230px;
+}
+.pulsante1{
+    padding-left: 80px;
+}
+.imm7 img{
+   width: 150px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+.imm6 img{
+    width: 230px;
+    height: 120px;
+    padding-top: 120px;
+    padding-bottom: 85px;
+}
+.fasi{
+    padding: 0px 0px 90px 0px;
+}
+.pulsante2{
+    padding-left: 50px;
+}
+.overlay {
+    top: 0px;
+}
+.parole .Immagine img{
+    width: 200px;
+    height: 150px;
+    padding-top: 50px;
+}
+.parole .Immagine1 img{
+    width: 220px;
+    height: 150px;
+    padding-top: 50px;
+}
+.parole .Immagine3 img{
+    width: 250px;
+    height: 150px;
+    padding-top: 50px;
+}
+.parole .textt h1{
+    font-size: 20px;
+}
+.parole .textt h5{
+    font-size: 12px;
+}
+.close {
+    font-size: 30px;
+    padding-right: 100px;
+    padding-top: 0;
+}
+.parole .Immagine2 img{
+    width: 180px;
+    height: 170px;
+}
+.image2 img{
+    width: 200px;
+    height: 70px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.image3 img{
+    width: 150px;
+    height: 250px;
+    padding-top: 130px;
+}
+.image4 img{
+ width: 150px;
+ height: 230px;
+ padding-top: 130px;
+ padding-right: 70px;
+}
+.nero ul{
+gap: 25px;
+}
+
+}
+
+@media screen and (max-width: 480px){
+    .titolo1 h1{
+        font-size: 40px;
+    }
+   .contenitore33 .testi p{
+        font-size: 10px;
+    }
+   .contenitore33 .moon img{
+        width: 230px;
+        height: 300px;
+        padding-left: 20px;
+    }
+    .nascita p{
+        padding-top: 10px;
+    }
+    .lunario1 p{
+        padding-top: 20px;
+    }
+    .altopiani p{
+        padding-top: 25px;
+    }
+    .fasilunari p{
+        padding-top: 25px;
+    }
+    .eclissi p{
+        padding-top: 20px;
+    }
+   .info .text h1{
+    font-size: 30px;
+   }
+   .info .text p{
+    font-size: 10px;
+   }
+   .image0 img{
+    width: 150px;
+    height: 200px;
+    padding-top: 180px;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+.container{
+    gap: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+.containerr{
+    gap: 0;
+    padding-left: 0;
+}
+  .info {
+    padding-left: 0px;
+   }
+   .containerr .text h1{
+    font-size: 30px;
+
+   }
+   .containerr .text p{
+    font-size: 10px;
+   }
+   .image img{
+    width: 150px;
+    height: 200px;
+    padding-top: 150px;
+    padding-left: 35px;
+}
+.image1 img{
+    width: 200px;
+    height: 150px;
+    padding-top: 200px;
+}
+.info{
+    padding:0px 0px 0px;
+    padding-left: 0px;
+}
+.foto img{
+   padding-left: 50px;
+   width: 200px;
+   height: 170px;
+}
+.pulsante {
+    padding-left: 100px;
+}
+.imm8 img{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 230px;
+}
+.pulsante1{
+    padding-left: 80px;
+}
+.imm7 img{
+   width: 150px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+.imm6 img{
+    width: 230px;
+    height: 120px;
+    padding-top: 120px;
+    padding-bottom: 85px;
+}
+.fasi{
+    padding: 0px 0px 90px 0px;
+}
+.pulsante2{
+    padding-left: 50px;
+}
+.overlay {
+    top: 0px;
+}
+.parole .Immagine img{
+    width: 200px;
+    height: 150px;
+    padding-top: 50px;
+}
+.parole .Immagine1 img{
+    width: 220px;
+    height: 150px;
+    padding-top: 50px;
+}
+.parole .Immagine3 img{
+    width: 250px;
+    height: 150px;
+    padding-top: 50px;
+}
+.parole .textt h1{
+    font-size: 20px;
+}
+.parole .textt h5{
+    font-size: 12px;
+}
+.close {
+    font-size: 30px;
+    padding-right: 100px;
+    padding-top: 0;
+}
+.parole .Immagine2 img{
+    width: 180px;
+    height: 170px;
+}
+.image2 img{
+    width: 150px;
+    height: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.image3 img{
+    width: 130px;
+    height: 200px;
+    padding-top: 200px;
+}
+.image4 img{
+ width: 120px;
+ height: 200px;
+ padding-top: 130px;
+ padding-right: 70px;
+}
+.nero ul{
+gap: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+/*ENTERTAINMENT*/
+@media screen and (max-width:1400px) {
+    .col-50 {
+        width: calc(50% - 44px);
+
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+ 
+
+    .col-50 {
+        width: calc(50% - 44px);
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+  
+
+    .col-50 {
+        width: 33%;
+    }
+
 }
