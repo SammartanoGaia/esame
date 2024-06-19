@@ -1185,6 +1185,9 @@ button {
     .nero ul{
         gap: 160px;
     }
+    .text h5{
+        font-size: 25px;
+    }
 }
 @media screen and (max-width: 1200px){
     .nero ul{
@@ -1202,6 +1205,7 @@ button {
     }
     .image2 img{
         padding-top: 50px;
+        width: 450px;
     }
     .image3 img{
         padding-top: 30px;
@@ -1209,7 +1213,9 @@ button {
     .overlay {
         top: 400px;
     }
-    
+    .text h5{
+        font-size: 25px;
+    }
 }
 @media screen and (max-width: 992px){
   
@@ -1259,14 +1265,17 @@ button {
     width: 300px;
     height: 450px;
     padding-top: 30px;
+    padding-right: 90px;
 }
 .image4 img{
  width: 250px;
  height: 380px;
  padding-top: 50px;
- padding-right: 50px;
+ padding-right: 120px;
 }
-
+.text h5{
+    font-size: 25px;
+}
 .nero ul{
     gap: 70px;
 }
@@ -1429,12 +1438,13 @@ padding-top: 50px;
 .image3 img{
     width: 200px;
     height: 300px;
-    padding-top: 80px;
+    padding-top: 150px;
+    padding-right: 50px;
 }
 .image4 img{
  width: 150px;
  height: 230px;
- padding-top: 80px;
+ padding-top: 120px;
  padding-right: 70px;
 }
 .nero ul{
@@ -1473,50 +1483,60 @@ gap: 40px;
     .eclissi p{
         padding-top: 30px;
     }
+    .container{
+        margin: 0 auto;
+        grid-template-columns:  1fr;
+        flex-direction: column;
+        padding-bottom: 0;
+        gap: 0;
+    }
+    .containerr{
+        margin: 0 auto;
+        grid-template-columns:  1fr;
+        flex-direction: column;
+        gap: 0;
+        padding-bottom: 0;
+    }
    .info .text h1{
     font-size: 30px;
    }
    .info .text p{
-    font-size: 12px;
+    font-size: 13px;
    }
-   .image0 img{
-    width: 200px;
-    height: 250px;
-    padding-top: 140px;
-    padding-left: 0px;
-    padding-right: 50px;
-}
-.container{
-    gap: 0;
-}
-.containerr{
-    gap: 0;
+  .container .image0 img{
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
   .info {
     padding-left: 0px;
+    padding-bottom: 0;
+    padding:0px 0px 0px;
+    gap: 0;
    }
    .containerr .text h1{
     font-size: 30px;
 
    }
    .containerr .text p{
-    font-size: 12px;
+    font-size: 13px;
    }
    .image img{
-    width: 200px;
-    height: 250px;
-    padding-top: 100px;
-    padding-left: 35px;
+    width: 230px;
+    height: 350px;
+    padding-left: 105px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .image1 img{
-    width: 200px;
-    height: 150px;
-    padding-top: 200px;
-    padding-right: 50px;
-}
-.info{
-    padding:0px 0px 0px;
-    padding-left: 0px;
+    width: 350px;
+    height: 250px;
+    padding-top: 0px;
+    padding-left: 110px;
+    padding-bottom: 50px;
 }
 .foto img{
    padding-left: 50px;
@@ -1543,16 +1563,24 @@ gap: 40px;
     width: 230px;
     height: 120px;
     padding-top: 120px;
-    padding-bottom: 85px;
+    padding-bottom: 45px;
+    padding-left: 30px;
 }
 .fasi{
     padding: 0px 0px 90px 0px;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  padding-left: 130px;
+  padding-top: 50px;
+}
+.fase2{
+    padding-top: 70px;
 }
 .pulsante2{
-    padding-left: 50px;
+    padding-left: 80px;
 }
 .overlay {
-    top: 0px;
+    padding-top: 900px;
 }
 .parole .Immagine img{
     width: 200px;
@@ -1585,28 +1613,31 @@ gap: 40px;
     height: 170px;
 }
 .image2 img{
-    width: 200px;
-    height: 70px;
-    padding-top: 20px;
-    padding-right: 50px;
+    width: 300px;
+    height: 100px;
+    padding-top: 0%;
+    padding-left: 130px;
+    padding-bottom: 50px;
 }
 .image3 img{
-    width: 150px;
-    height: 250px;
-    padding-top: 130px;
+    width: 200px;
+    height: 300px;
+    padding-top: 0px;
+    padding-bottom: 0;
+    padding-left: 70px;
 }
 .image4 img{
  width: 150px;
  height: 230px;
- padding-top: 130px;
- padding-right: 70px;
+ padding-top: 0px;
+ padding-left: 190px;
+ padding-bottom: 50px;
 }
 .nero ul{
 gap: 25px;
 }
 
 }
-
 @media screen and (max-width: 480px){
     .titolo1 h1{
         font-size: 40px;
@@ -1647,16 +1678,8 @@ gap: 25px;
     padding-left: 0px;
     padding-right: 50px;
 }
-.container{
-    gap: 0;
-    padding-left: 0;
-    padding-bottom: 20px;
-    padding-top: 0px;
-}
-.containerr{
-    gap: 0;
-    padding-left: 0;
-}
+
+
   .info {
     padding-left: 0px;
    }
@@ -1770,19 +1793,6 @@ gap: 25px;
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
