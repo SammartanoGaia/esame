@@ -1635,7 +1635,7 @@ gap: 40px;
 gap: 25px;
 }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 400px){
     .titolo1 h1{
         font-size: 35px;
     }
