@@ -1829,6 +1829,91 @@ gap: 25px;
 
 
 
+/*KNOW*/
+@media screen and (max-width: 992px){
+.testata .titolo h1{
+    padding-left: 50px;
+}
+ .luna img{
+    width: 550px;
+    height: 700px;
+}
+}
+@media screen and (max-width: 768px){
+    .testata .titolo h1{
+        font-size: 40px;
+    }
+     .luna img{
+        width: 400px;
+        height: 500px;
+    }
+    .sottotitolo h1{
+        font-size: 35px;
+    }
+    .grid-item p {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 576px){
+    .testata .titolo h1{
+        font-size: 35px;
+        padding-left: 20px;
+    }
+     .luna img{
+        width: 350px;
+        height: 450px;
+    }
+    .barattolo{
+        gap: 0px;
+    }
+    .sottotitolo h1{
+        font-size: 25px;
+    }
+    .grid-item p {
+        margin-bottom: 40px;
+        font-size: 12px;
+    }
+    .grid-item h4 {
+        font-size: 18px;
+    }
+    .toknow{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(5, auto); 
+        gap: 20px; 
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    .testata .titolo h1{
+        font-size: 25px;
+        padding-left: 5px;
+    }
+     .luna img{
+        width: 250px;
+        height: 320px;
+    }
+    .barattolo{
+        gap: 0px;
+    }
+    .sottotitolo h1{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .grid-item p {
+        margin-bottom: 40px;
+        font-size: 8px;
+    }
+    .grid-item h4 {
+        font-size: 14px;
+    }
+    .toknow{
+        gap: 35px; 
+    }
+}
+
+
+
     
    
 
