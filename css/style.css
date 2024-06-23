@@ -1007,7 +1007,7 @@ button {
         font-size: 15px;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
     header nav ul{
         gap: 20px;
         font-size: 8px;
@@ -1030,12 +1030,14 @@ button {
 
     .image-moon {
         top: 220px;
+        transform: scale(0.9);
+        
     }
 
     .image-moon img {
         width: 400px;
         height: 400px;
-        padding-left: 20px;
+        padding-left: 0px;
     }
     .container1 .grid-item p{
         font-size: 7px;
@@ -1061,9 +1063,25 @@ button {
         font-size: 10px;
         padding-left: 10px;
     }
-    .misure .content span{
-        padding-left: 15px;
-
+    .container1{
+     margin: 0 auto;
+     grid-template-columns: 1fr;
+     flex-direction: column;   
+    }
+   .imagee{
+    margin-top: 40px;
+   }
+   .text1 .Read a{
+      margin-left: 16px;
+     }
+    .misure{
+    font-size: 6px;  
+    }
+    .cool{
+    width: 1000px;  
+     }
+    .cool1{
+       width: 1480px
     }
     .caratteristiche p{
         font-size: 12px;
@@ -1071,7 +1089,7 @@ button {
     .info{
     padding:0px 0px 0px;
     padding-left: 0px;
-}
+    }
 }
 
 /*MOON*/
