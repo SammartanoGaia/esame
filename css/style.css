@@ -948,6 +948,14 @@ button {
     .container1 .Read li a{
         font-size: 20px;
     }
+    .container1{
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        flex-direction: column;   
+       }
+    .text1 .Read a{
+        margin-left: 16px;
+       }
 }
 @media screen and (max-width: 576px) {
     header nav ul{
