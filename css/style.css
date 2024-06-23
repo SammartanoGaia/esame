@@ -235,6 +235,7 @@ h1{
 
 
 
+
 /*MOON*/
 .sposta{
     padding-top: 100px;
@@ -274,6 +275,18 @@ h1{
 }
 .container .text h1{
     font-size: 40px;
+}
+.texto p{
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+    padding-left: 165px;
+    padding-bottom: 100px;
+}
+.texto h1{
+    font-size: 40px;
+    padding-left: 165px;
+    padding-top: 100px;
 }
 .container .image0{
     width: 33%;
@@ -575,8 +588,11 @@ button {
     font-size: 80px;
     padding-left: 440px;
 }
+.testoo h1{
+    padding-left: 500px;
+}
 .testoo p{
-    padding-left: 470px;
+    padding-left: 500px;
 }
 
 
@@ -836,6 +852,9 @@ button {
    .info1{
     padding-left: 20px;
    }
+   footer{
+    margin-top: 10%;
+   }
 }
 @media screen and (max-width: 1200px) {
     header nav ul {
@@ -867,21 +886,16 @@ button {
     header nav ul a {
         padding-left: 50px;
     }
-
-
     .luna-home h1 {
         font-size: 300px;
     }
-
     footer ul {
         gap: 70px;
     }
-
     .image-moon img {
         width: 900px;
         height: 900px;
     }
-
     .image-moon {
         top: 460px;
     }
@@ -894,6 +908,9 @@ button {
     }
     .grid-item{
         padding-left: 2px;
+    }
+    footer {
+        margin-top: 5%;
     }
 }
 @media screen and (max-width: 768px) {
@@ -947,14 +964,6 @@ button {
     .container1 .Read li a{
         font-size: 20px;
     }
-    .container1{
-        margin: 0 auto;
-        grid-template-columns: 1fr;
-        flex-direction: column;   
-       }
-    .text1 .Read a{
-        margin-left: 16px;
-       }
 }
 @media screen and (max-width: 576px) {
     header nav ul{
@@ -992,8 +1001,8 @@ button {
     }
 
     .imagee img{
-        width: 500px;
-        height: 140px;
+        width: 300px;
+        height: 80px;
     }
     .container1 .text1 h1{
         font-size: 20px;
@@ -1014,7 +1023,7 @@ button {
         font-size: 15px;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     header nav ul{
         gap: 20px;
         font-size: 8px;
@@ -1037,14 +1046,12 @@ button {
 
     .image-moon {
         top: 220px;
-        transform: scale(0.9);
-        
     }
 
     .image-moon img {
         width: 400px;
         height: 400px;
-        padding-left: 0px;
+        padding-left: 20px;
     }
     .container1 .grid-item p{
         font-size: 7px;
@@ -1070,25 +1077,9 @@ button {
         font-size: 10px;
         padding-left: 10px;
     }
-    .container1{
-     margin: 0 auto;
-     grid-template-columns: 1fr;
-     flex-direction: column;   
-    }
-   .imagee{
-    margin-top: 40px;
-   }
-   .text1 .Read a{
-      margin-left: 16px;
-     }
-    .misure{
-    font-size: 6px;  
-    }
-    .cool{
-    width: 1000px;  
-     }
-    .cool1{
-       width: 1480px
+    .misure .content span{
+        padding-left: 15px;
+
     }
     .caratteristiche p{
         font-size: 12px;
@@ -1096,7 +1087,7 @@ button {
     .info{
     padding:0px 0px 0px;
     padding-left: 0px;
-    }
+}
 }
 
 /*MOON*/
@@ -1800,6 +1791,357 @@ padding-left: 0;
 }
 
 /*HISTORY*/
+@media screen and (max-width: 1400px) {
+   .astronauta img{
+    width: 1400px;
+    height: 1300px;
+   }
+
+}
+@media screen and (max-width: 1200px){
+    .astronauta img{
+        width: 1200px;
+        height: 1100px;
+    }
+    .moonexploration .testoo h1{
+        font-size: 70px;
+        padding-left: 430px;
+    }
+    .moonexploration .testoo p{
+        font-size: 15px;
+        padding-left: 450px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .astronauta img{
+        width: 992px;
+        height: 892px;
+    }
+    .moonexploration .testoo h1{
+        font-size: 70px;
+        padding-left: 330px;
+    }
+    .moonexploration .testoo p{
+        font-size: 12px;
+        padding-left: 360px;
+        padding-top: 0px;
+    }
+    .center-text{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .contenitore .t1{
+        padding-left: 30px;
+    }
+    .contenitore1 .text p{
+       font-size: 15px;
+       padding-left: 40px;
+    }
+    .contenitore1 h4{
+        padding-left: 40px;
+    }
+    .sbarco h1{
+        padding-left: 40px;
+    }
+    .imm1{
+        padding-right: 20px;
+    }
+    .sbarco1 h1{
+        padding-left: 40px;
+    }
+    .contenitore1 .imm3 img{
+        width: 300px;
+        height: 420px;
+        padding-right: 20px;
+    }
+    .contenitore1 .imm4 img{
+        width: 300px;
+        height: 400px;
+        padding-right: 20px;
+    }
+    .contenitore1 .imm5 img{
+        width: 450px;
+        height: 450px;
+        padding-right: 20px;
+    }
+    .tuta img{
+        padding-left: 20px;
+    }
+    .immagini img{
+       width: 220px;
+       height: 200px;
+       padding: 10px;
+       margin-top: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+        .astronauta img{
+            width: 768px;
+            height: 720px;
+        }
+        .moonexploration .testoo h1{
+            font-size: 60px;
+            padding-left: 240px;
+            padding-top: 10px;
+        }
+       .moonexploration .testoo p{
+            font-size: 12px;
+            padding-left: 250px;
+            padding-top: 0px;
+        }
+        .center-text{
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        .contenitore .t1 p{
+            padding-left: 0px;
+            font-size: 13px;
+        }
+        .contenitore .t2 p{
+            font-size: 15px;
+            padding-left: 30px;
+        }
+        .contenitore .t2 h5{
+            padding-left: 30px;
+            margin-top: 60px;
+      padding-top: 0px;
+    }
+    .contenitore1{
+        grid-template-columns: 1fr;
+        gap: 100px;
+        flex-direction: column;
+    }
+        .contenitore1 .text p{
+           font-size: 13px;
+           padding-left: 40px;
+           padding-right: 50px;
+        }
+        .contenitore1 h4{
+            padding-left: 40px;
+        }
+       .contenitore1 .imm1 img{
+            width: 350px;
+            height: 300px;
+            padding-left: 200px;
+            padding-top: 40px;
+        }
+        .contenitore1 .imm3 img{
+            padding-left: 220px;
+        }
+        .contenitore1 .imm4 img{
+            padding-left: 240px;
+        }
+        .contenitore1 .imm5 img{
+            width: 450px;
+            height: 450px;
+            padding-left: 160px;
+        }
+        .tuta img{
+            padding-left: 40px;
+            width: 200px;
+          
+        }
+        .immagini img{
+           width: 160px;
+           height: 140px;
+           padding: 5px;
+           margin-top: 15px;
+        }
+        .sbarco1 h1{
+            padding-top: 0px;
+      margin-top: 0px;
+      padding-left: 40px;
+      font-size: 40px;
+        }
+        .sbarco h1{
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .sbarco h4{
+            font-size: 20px;
+            padding-left: 40px;
+        }
+    }
+@media screen and (max-width: 576px) {
+    .astronauta img{
+        width: 576px;
+        height: 550px;
+    }
+    .moonexploration .testoo h1{
+        padding-top: 20px;
+        font-size: 35px;
+        padding-left: 200px;
+    }
+    .moonexploration .testoo p{
+        font-size: 8px;
+        padding-left: 200px;
+        padding-top: 0px;
+    }
+    .center-text{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .contenitore{
+        grid-template-columns: 1fr;
+        gap: 150px;
+        flex-direction: column;
+    }
+    .contenitore .t1 p{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    .contenitore .t2 p{
+        font-size: 15px;
+        padding-left: 30px;
+    }
+    .contenitore .t2 h5{
+        padding-left: 30px;
+        margin-top: 0px;
+  padding-top: 0px;
+}
+.contenitore1{
+    grid-template-columns: 1fr;
+    gap: 100px;
+    flex-direction: column;
+}
+    .contenitore1 .text p{
+       font-size: 13px;
+       padding-left: 20px;
+       padding-right: 50px;
+    }
+    .contenitore1 h4{
+        padding-left: 40px;
+    }
+   .contenitore1 .imm1 img{
+        width: 300px;
+        height: 250px;
+        padding-left: 140px;
+        padding-top: 40px;
+    }
+    .contenitore1 .imm3 img{
+        padding-left: 140px;
+    }
+    .contenitore1 .imm4 img{
+        padding-left: 140px;
+    }
+    .contenitore1 .imm5 img{
+        width: 350px;
+        height: 350px;
+        padding-left: 100px;
+    }
+    .tuta img{
+        padding-left: 20px;
+        width: 170px;
+    }
+    .immagini img{
+       width: 140px;
+       height: 120px;
+       padding: 5px;
+       margin-top: 15px;
+    }
+    .sbarco1 h1{
+        padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 15px;
+  font-size: 28px;
+    }
+    .sbarco h1{
+        padding-left: 15px;
+    }
+    .sbarco h4{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .astronauta img{
+        width: 400px;
+        height: 400px;
+    }
+    .moonexploration .testoo h1{
+        font-size: 30px;
+        padding-left: 100px;
+    }
+    .moonexploration .testoo p{
+        font-size: 8px;
+        padding-left: 100px;
+        padding-top: 0px;
+    }
+    .center-text{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .contenitore{
+        grid-template-columns: 1fr;
+        gap: 150px;
+        flex-direction: column;
+    }
+    .contenitore .t1 p{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .contenitore .t2 p{
+        font-size: 10px;
+        padding-left: 30px;
+    }
+    .contenitore .t2 h5{
+        padding-left: 30px;
+        margin-top: 0px;
+  padding-top: 0px;
+}
+.contenitore1{
+    grid-template-columns: 1fr;
+    gap: 100px;
+    flex-direction: column;
+}
+    .contenitore1 .text p{
+       font-size: 10px;
+       padding-left: 15px;
+    }
+    .contenitore1 h4{
+        padding-left: 40px;
+    }
+   .contenitore1 .imm1 img{
+        width: 300px;
+        height: 250px;
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+    .contenitore1 .imm3 img{
+        padding-left: 60px;
+    }
+    .contenitore1 .imm4 img{
+        padding-left: 50px;
+    }
+    .contenitore1 .imm5 img{
+        width: 350px;
+        height: 350px;
+        padding-left: 20px;
+    }
+    .tuta img{
+        padding-left: 20px;
+        width: 170px;
+    }
+    .immagini img{
+       width: 120px;
+       height: 100px;
+       padding: 0px;
+       margin-top: 0px;
+    }
+    .sbarco1 h1{
+        padding-top: 0px;
+  margin-top: 0px;
+  padding-left: 15px;
+  font-size: 28px;
+    }
+    .sbarco h1{
+        padding-left: 15px;
+    }
+    .sbarco h4{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+}
 
 /*KNOW*/
 @media screen and (max-width: 992px){
@@ -1885,6 +2227,35 @@ padding-left: 0;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
 /*ENTERTAINMENT*/
 @media screen and (max-width:1400px) {
     .col-50 {
@@ -1944,13 +2315,4 @@ padding-left: 0;
 
 
 
-
-@media screen and (max-width: 1400px) {
-
-.button1 {
-    widht: 20px;
-}
-    
-
-}
 
