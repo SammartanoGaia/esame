@@ -1857,3 +1857,16 @@ gap: 25px;
     }
     
 }
+
+
+
+
+@media screen and (max-width: 1400px) {
+
+.button1 {
+    widht: 20px;
+}
+    
+
+}
+
