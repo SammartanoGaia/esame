@@ -1137,6 +1137,9 @@ button {
 .containerr .text p{
     font-size: 15px;
 }
+       .texto p{
+        font-size: 15px;
+       }
 .image img{
     width: 300px;
     height: 350px;
@@ -1233,6 +1236,12 @@ padding-top: 50px;
     .eclissi p{
         padding-top: 60px;
     }
+    .texto h1{
+        font-size: 35px;
+           }
+           .texto p{
+            font-size: 12px;
+           }
    .info .text h1{
     font-size: 35px;
    }
@@ -1392,6 +1401,12 @@ gap: 40px;
    .info .text p{
     font-size: 13px;
    }
+   .texto h1{
+    font-size: 30px;
+       }
+       .texto p{
+        font-size: 13px;
+       }
   .container .image0 img{
     width: 250px;
     height: 300px;
@@ -1561,22 +1576,53 @@ gap: 25px;
     }
    .info .text h1{
     font-size: 25px;
+    padding-right: 0px;
    }
    .info .text p{
     font-size: 10px;
+    padding-right: 0px;
    }
-   .container .image0 img{
-    width: 250px;
-    height: 300px;
-    margin: 0 auto;
-    padding-left: 90px;
-    padding-top: 0;
-    padding-bottom: 0;
+   .texto h1{
+font-size: 25px;
+padding-left: 50px;
+padding-top: 30px;
+   }
+   .texto p{
+    font-size: 10px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+   }
+   .container .text{
+    width: 66%;
+    margin-top: 30px;
+    margin-left: 60px;
+  padding-right: 0px;
 }
-  .info {
+.text h5{
+    margin-top: 0px;
+  margin-bottom: 25px;
+}
+.containerr{
     padding-left: 0px;
-    padding-bottom: 0;
-   }
+ height: 860px;
+}
+.container{
+    height: 740px;
+
+}
+.containerr .text{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.container .image0 img{
+    width: 200px;
+    height: 250px;
+    padding-left: 90px;
+}
+.container .image0{
+    padding-top: 50px;
+}
    .containerr .text h1{
     font-size: 25px;
 
@@ -1584,27 +1630,33 @@ gap: 25px;
    .containerr .text p{
     font-size: 10px;
    }
+ .containerr .image{
+    padding-top: 50px;
+ }
    .image img{
-    width: 230px;
-    height: 350px;
-    padding-left: 30px;
-    padding-top: 0;
-    padding-bottom: 0;
+    width: 200px;
+    height: 300px;
+    padding-left: 85px;
 }
 .image1 img{
     width: 250px;
     height: 170px;
-    padding-top: 0px;
-    padding-left: 90px;
-    padding-bottom: 50px;
+    padding-left: 70px;
 }
-.info{
-    padding:0px 0px 0px;
-    padding-left: 0px;
+.image1{
+    padding-top: 60px;
+}
+.overlay{
+    display: flex;
+  padding-top: 0px;
+  height: 8200px;
+}
+.foto{
+    width: 300px;
 }
 .fasi{
     padding: 0px 0px 0px 0px;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 .fase1{
     padding-left: 50px;
@@ -1692,26 +1744,33 @@ gap: 25px;
 .image2 img{
     width: 300px;
     height: 100px;
-    padding-top: 0%;
-    padding-left: 60px;
-    padding-bottom: 50px;
+    padding-left: 40px;
 }
+.image2{
+    padding-top: 100px;
+  width: 350px;
+  height: 100px;
+}
+
 .image3 img{
     width: 200px;
     height: 300px;
     padding-top: 0px;
     padding-bottom: 0;
-    padding-left: 30px;
+    padding-left: 0px;
 }
 .image4 img{
- width: 150px;
- height: 230px;
+ width: 170px;
+ height: 250px;
  padding-top: 0px;
- padding-left: 130px;
- padding-bottom: 50px;
+ padding-left: 100px;
+}
+.image4{
+    padding-bottom: 0px;
 }
 .nero ul{
-gap: 25px;
+gap: 20px;
+padding-left: 0;
 }
 }
 
