@@ -2353,6 +2353,229 @@ padding-left: 0;
     
 }
 
+/*CHI SIAMO*/
+@media screen and (max-width: 1400px) {
 
+    .button1 {
+        width: 100px;
+        height: 40px;
+        margin-top: 310px;
+    }
+        .textt{
+            display: inline-block;
+            padding-bottom: 60%;
+            margin-left: 45px
+        }
+      footer{
+        margin-top: 20%;
+    
+    }
+    .Immagine5 {
+        margin-left: 40px;
+        margin-top: 150px;
+    
+    }
+    .presentazione {
+        margin-top: 70px;
+        padding-left: 45px;
+    }
+    }
+    @media screen and (max-width: 1200px) {
+        .button1 {
+         height: 40%;
+         width: 50%;
+         margin-top: 275px;
+    
+           
+        }
+        .footer{
+            margin-top: 15%;
+        }
+    
+        .Immagine5{
+    
+        height: 160px;
+         width: 210px;
+         margin-bottom: 55px;
+         margin-left: 10px;
+        }
+        .textt p {
+            
+            margin-bottom: 500px;
+            font-size:15px ;
+    
+        }
+        .Immagine6 img{
+            height: 300px;
+            width: 400px;
+              }
+            
+        }
+        @media screen and (max-width:992px) {
+        .Immagine5 {
+            width: 200px;
+            height: 140px ;
+        }
+        .button1 {
+            font-size: 10px;
+         
+            margin-top: 255px;
+    
+        }
+        .presentazione h1 {
+            font-size: 40px;
+            margin-top: 100px;
+        
+       
+        }
+        .parole1{
+            margin-top: 100px
+    
+        }
+        
+        .Immagine6 img{
+            height: 200px;
+            width: 270px;
+            margin-top: 100px;
+            margin-left: 40 px;
+        }
+        .textt p{
+            font-size: 14px;
+            padding-right: 20px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+    
+    .presentazione p{
+        font-size: 13px;
+    }
+    .Immagine5 {
+        width:150px;
+        height: 110px;
+    }
+    .button1{
+        font-size: 8px;
+        margin-top: 229px;
+    }
+    .Immagine6 img{
+        width: 280px;
+        height: 210px;
+        margin-left: 55px;
+        margin-bottom: 00px;
+        
+    }
+    .parole1 {
+        margin-top: 30px;
+    }
+    .textt h1 {
+        font-size: 25px;
+    }
+    .close{
+        margin-left: 50px;
+        margin-top: 45px;
+     
+    }
+    .textt p{
+        margin-left: 10px;
+       margin-top: 35px;
+        
+    
+    }
+    
+    
+    
+    }
+    @media screen and (max-width:576px) {
+    .presentazione h1{
+        font-size: 30px;
+    }
+    .Immagine6 img{
+        width: 300px;
+    }
+    footer{
+        margin-top: 45%;
+    }
+    .tutto{
+        
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        
+        
+    }
+    .button1{
+        margin-left:120px ;
+        margin-top: 5px;
+        font-size: 15px;
+        
+    }
+    .tutto img{
+    
+        margin-top: 70px;
+        width: 250px;
+        height: 170px;
+        margin-left: 120px;
+        margin-bottom: 30px;
+    
+    }
+    .parole1{
+        margin-bottom: 1500px;
+        margin-right: 280px;
+    }
+    .textt p{
+        font-size: 9px;
+        padding-left: 190px;
+    
+     
+    }
+    .textt h1{
+        padding-left: 190px;
+        font-size: 20px;
+    }
+    .parole1 img{
+       
+       padding-top: 15px;
+        width: 200px;
+        height: 170px;
+        padding-left: 100px;
+    }
+    .close {
+        margin-right: 60px;
+    }
+    
+    .parole1 {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+       padding-bottom: 300px;
+    }
+    }
+    @media screen and (max-width:400px) {
+    .tutto img {
+        margin-left: 55px;
+        width: 170px;
+        height: 110px;
+    }
+    .presentazione p {
+        font-size: 8px;
+    }
+    .presentazione h1{
+        font-size: 20px;
+        margin-right:55px;
+    }
+    .presentazione {
+        margin-bottom: 85px;
+        margin-right: 95px;
+    }
+    .button1{
+        margin-left: 55px;
+        font-size: 15px;
+    }
+    .Immagine6 img{
+        margin-left: 110px;
+    }
+    .close{
+        padding-right: 170px;
+        font-size: 20px;
+    }
+    }
 
 
