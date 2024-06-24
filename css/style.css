@@ -820,6 +820,655 @@ button {
 
 /* MEDIA QUERIES */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1400px) {
+    .col-50 {
+        width: calc(50% - 44px);
+    }
+
+
+
+}
+@media screen and (max-width: 1200px) {
+
+
+    .col-50 {
+        width: calc(50% - 44px);
+
+    }
+
+
+
+    .Immagine img {
+        display: inline-block;
+       
+       
+    }
+
+    
+    .text{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 50px;
+  
+    
+}
+.close{
+    margin-left: 100%;
+    font-size: 50px;
+}
+.h1{
+    display: inline-block;
+}
+    .Immagine8 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+    }
+
+    .Immagine6 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .popup-content {
+        width: 100%;
+        height: 80%;
+        margin-left: 250px;
+    }
+
+    .testo-film {
+        width: 40%;
+    }
+
+    .close {
+        margin-right: 400px;
+    }
+
+.film {
+    margin: 0 auto;
+    
+}
+}
+@media screen and (max-width:992px) {
+    
+    .col-50 {
+        width: 35%;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+
+ 
+
+    .tutto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button1 {
+        width: 270px;
+    }
+
+    .button1 {
+        width: 270px;
+        margin-left: 250px;
+    }
+
+
+
+
+    .Immagine5 {
+        display: inline-block; 
+        margin-left: 200px;
+        width: 350px;
+        height: 300px;
+    }
+   
+    
+    
+
+    .Immagine6 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 30px;
+    }
+
+    .textt {
+        width: 90%;
+    }
+
+    .textt h1 {
+        font-size: 46px;
+    }
+
+    .close {
+        margin-right: 30px;
+    }
+
+    .fs-10 {
+        font-size: 15px;
+    }
+
+
+
+    .parole1 {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .Immagine8 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+    }
+
+    .popup-content {
+        width: 100%;
+        height: 80%;
+        margin-left: 200px;
+    }
+
+    
+
+    .close {
+        margin-right: 90%;
+        
+    }
+
+}
+@media screen and (max-width:768px) {
+
+    
+    
+.text {
+    font-size: 15px;
+
+}
+.Immagine10 img {
+margin: 100px  80px;
+
+
+
+}
+.Immagine10 {
+    padding-left: 35px;
+    
+    
+}
+.close{
+    margin-left: 90%;
+    font-size: 35px;
+}
+    .col-50 {
+        width: 100%;
+        margin-left: 450px;
+       
+    }
+
+ 
+
+    .tutto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button1 {
+        width: 270px;
+        margin-left: 250px;
+    }
+
+    .Immagine5 {
+        margin-left: 200px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .Immagine6 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 30px;
+    }
+
+    .textt {
+        width: 90%;
+    }
+
+    .textt h1 {
+        font-size: 46px;
+    }
+
+    .Immagine8 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-right: 3000px;
+    }
+
+    .popup-content {
+        width: 100%;
+        height: 80%;
+        margin-left: 30px;
+    }
+
+    .testo-film {
+        width: 40%;
+    }
+
+    .close {
+        margin-right: 800px;
+        float: left;
+    }
+
+  
+
+    .fs-10 {
+        font-size: 15px;
+    }
+
+    .parole1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:576px) {
+    .Immagine8 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+        margin-right: 3000px;
+    }
+
+    .popup-content {
+        width: 100%;
+        height: 80%;
+        margin-left: 0px;
+    }
+
+    .testo-film {
+        width: 40%;
+    }
+
+    .close {
+        margin-right: 800px;
+        float: left;
+    }
+
+    .fs-14 {
+        font-size: 12px;
+    }
+
+    .tutto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button1 {
+        width: 270px;
+        margin-left: 100px;
+    }
+
+    .Immagine5 {
+        margin-left: 80px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .Immagine6 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 30px;
+    }
+
+    .textt {
+        width: 90%;
+    }
+
+    .textt h1 {
+        font-size: 46px;
+    }
+
+
+    .fs-10 {
+        font-size: 13px;
+    }
+
+    .parole1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-50 {
+        align-items: center;
+    }
+}
+@media screen and (max-width:400px) {
+    
+
+    
+
+    .close {
+        margin-left: 80%;
+        font-size: 60px;
+    }
+    .Immagine {
+        padding: left 40px;;
+    }
+    .Immagine1{
+       margin: 10px 0;
+    }
+    .text{
+        font-size: 15px;
+
+}
+    .button1 {
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .parole1 {
+        width: 100%;
+        width: 90%;
+    }
+
+    .Immagine5 {
+        margin-left: 50px;
+    }
+
+    .parole1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Immagine6 img {
+        width: 350px;
+        height: 250px;
+        margin-left: 0px;
+    }
+
+    .Immagine8 img {
+        width: 350px;
+        height: 250px;
+        margin-right: 3000px;
+    }
+
+    .popup-content {
+        width: 100%;
+        height: 80%;
+    }
+
+    .testo-film {
+        width: 40%;
+    }
+
+    .close {
+        margin-right: 800px;
+        float: left;
+    }
+
+    .textt {
+        width: 90%;
+    }
+
+    .textt h1 {
+        font-size: 46px;
+    }
+
+    .fs-10 {
+        font-size: 20px;
+    }
+}
+
+/*CHI SIAMO*/
+@media screen and (max-width: 1400px) {
+
+    .button1 {
+        width: 100px;
+        height: 40px;
+        margin-top: 310px;
+    }
+        .textt{
+            display: inline-block;
+            padding-bottom: 60%;
+            margin-left: 45px
+        }
+
+    .Immagine5 {
+        margin-left: 40px;
+        margin-top: 150px;
+    
+    }
+    .presentazione {
+        margin-top: 70px;
+        padding-left: 45px;
+    }
+    }
+    @media screen and (max-width: 1200px) {
+        .button1 {
+         height: 40%;
+         width: 50%;
+         margin-top: 275px;
+    
+           
+        }
+    
+    
+        .Immagine5{
+    
+        height: 160px;
+         width: 210px;
+         margin-bottom: 55px;
+         margin-left: 10px;
+        }
+        .textt p {
+            
+            margin-bottom: 500px;
+            font-size:15px ;
+    
+        }
+        .Immagine6 img{
+            height: 300px;
+            width: 400px;
+              }
+            
+        }
+        @media screen and (max-width:992px) {
+        .Immagine5 {
+            width: 200px;
+            height: 140px ;
+        }
+        .button1 {
+            font-size: 10px;
+         
+            margin-top: 255px;
+    
+        }
+        .presentazione h1 {
+            font-size: 40px;
+            margin-top: 100px;
+        
+       
+        }
+        .parole1{
+            margin-top: 100px
+    
+        }
+        
+        .Immagine6 img{
+            height: 200px;
+            width: 270px;
+            margin-top: 100px;
+            margin-left: 40 px;
+        }
+        .textt p{
+            font-size: 14px;
+            padding-right: 20px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+    
+    .presentazione p{
+        font-size: 13px;
+    }
+    .Immagine5 {
+        width:150px;
+        height: 110px;
+    }
+    .button1{
+        font-size: 8px;
+        margin-top: 229px;
+    }
+    .Immagine6 img{
+        width: 280px;
+        height: 210px;
+        margin-left: 55px;
+        margin-bottom: 00px;
+        
+    }
+    .parole1 {
+        margin-top: 30px;
+    }
+    .textt h1 {
+        font-size: 25px;
+    }
+    .close{
+        margin-left: 50px;
+        margin-top: 45px;
+     
+    }
+    .textt p{
+        margin-left: 10px;
+       margin-top: 35px;
+        
+    
+    }
+    
+    
+    
+    }
+    @media screen and (max-width:576px) {
+    .presentazione h1{
+        font-size: 30px;
+    }
+    .Immagine6 img{
+        width: 300px;
+    }
+
+    .tutto{
+        
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        
+        
+    }
+    .button1{
+        margin-left:120px ;
+        margin-top: 5px;
+        font-size: 15px;
+        
+    }
+    .tutto img{
+    
+        margin-top: 70px;
+        width: 250px;
+        height: 170px;
+        margin-left: 120px;
+        margin-bottom: 30px;
+    
+    }
+    .parole1{
+        margin-bottom: 1500px;
+        margin-right: 280px;
+    }
+    .textt p{
+        font-size: 9px;
+        padding-left: 190px;
+    
+     
+    }
+    .textt h1{
+        padding-left: 190px;
+        font-size: 20px;
+    }
+    .parole1 img{
+       
+       padding-top: 15px;
+        width: 200px;
+        height: 170px;
+        padding-left: 100px;
+    }
+    .close {
+        margin-right: 60px;
+    }
+    
+    .parole1 {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+       padding-bottom: 300px;
+    }
+    }
+    @media screen and (max-width:400px) {
+    .tutto img {
+        margin-left: 55px;
+        width: 170px;
+        height: 110px;
+    }
+    .presentazione p {
+        font-size: 8px;
+    }
+    .presentazione h1{
+        font-size: 20px;
+        margin-right:55px;
+    }
+    .presentazione {
+        margin-bottom: 85px;
+        margin-right: 95px;
+    }
+    .button1{
+        margin-left: 55px;
+        font-size: 15px;
+    }
+    .Immagine6 img{
+        margin-left: 110px;
+    }
+    .close{
+        padding-right: 170px;
+        font-size: 20px;
+    }
+    }
+
 /*HOME*/
 @media screen and (max-width: 1400px) {
     header nav ul {
@@ -2265,653 +2914,4 @@ padding-left: 0;
         gap: 35px; 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-   
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1400px) {
-    .col-50 {
-        width: calc(50% - 44px);
-    }
-
-
-
-}
-@media screen and (max-width: 1200px) {
-
-
-    .col-50 {
-        width: calc(50% - 44px);
-
-    }
-
-
-
-    .Immagine img {
-        display: inline-block;
-       
-       
-    }
-
-    
-    .text{
-    display: inline-block;
-    font-size: 40px;
-    margin-left: 50px;
-  
-    
-}
-.close{
-    margin-left: 100%;
-    font-size: 50px;
-}
-.h1{
-    display: inline-block;
-}
-    .Immagine8 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 0px;
-    }
-
-    .Immagine6 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 0px;
-        margin-top: 60px;
-    }
-
-    .popup-content {
-        width: 100%;
-        height: 80%;
-        margin-left: 250px;
-    }
-
-    .testo-film {
-        width: 40%;
-    }
-
-    .close {
-        margin-right: 400px;
-    }
-
-.film {
-    margin: 0 auto;
-    
-}
-}
-@media screen and (max-width:992px) {
-    
-    .col-50 {
-        width: 35%;
-        align-items: center;
-        margin: 0 auto;
-        
-    }
-
- 
-
-    .tutto {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .button1 {
-        width: 270px;
-    }
-
-    .button1 {
-        width: 270px;
-        margin-left: 250px;
-    }
-
-
-
-
-    .Immagine5 {
-        display: inline-block; 
-        margin-left: 200px;
-        width: 350px;
-        height: 300px;
-    }
-   
-    
-    
-
-    .Immagine6 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 30px;
-    }
-
-    .textt {
-        width: 90%;
-    }
-
-    .textt h1 {
-        font-size: 46px;
-    }
-
-    .close {
-        margin-right: 30px;
-    }
-
-    .fs-10 {
-        font-size: 15px;
-    }
-
-
-
-    .parole1 {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-    }
-
-    .Immagine8 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 0px;
-    }
-
-    .popup-content {
-        width: 100%;
-        height: 80%;
-        margin-left: 200px;
-    }
-
-    
-
-    .close {
-        margin-right: 90%;
-        
-    }
-
-}
-@media screen and (max-width:768px) {
-
-    
-    
-.text {
-    font-size: 15px;
-
-}
-.Immagine10 img {
-margin: 100px  80px;
-
-
-
-}
-.Immagine10 {
-    padding-left: 35px;
-    
-    
-}
-.close{
-    margin-left: 90%;
-    font-size: 35px;
-}
-    .col-50 {
-        width: 100%;
-        margin-left: 450px;
-       
-    }
-
- 
-
-    .tutto {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .button1 {
-        width: 270px;
-        margin-left: 250px;
-    }
-
-    .Immagine5 {
-        margin-left: 200px;
-        width: 350px;
-        height: 300px;
-    }
-
-    .Immagine6 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 30px;
-    }
-
-    .textt {
-        width: 90%;
-    }
-
-    .textt h1 {
-        font-size: 46px;
-    }
-
-    .Immagine8 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 0px;
-        margin-right: 3000px;
-    }
-
-    .popup-content {
-        width: 100%;
-        height: 80%;
-        margin-left: 30px;
-    }
-
-    .testo-film {
-        width: 40%;
-    }
-
-    .close {
-        margin-right: 800px;
-        float: left;
-    }
-
-  
-
-    .fs-10 {
-        font-size: 15px;
-    }
-
-    .parole1 {
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media screen and (max-width:576px) {
-    .Immagine8 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 0px;
-        margin-right: 3000px;
-    }
-
-    .popup-content {
-        width: 100%;
-        height: 80%;
-        margin-left: 0px;
-    }
-
-    .testo-film {
-        width: 40%;
-    }
-
-    .close {
-        margin-right: 800px;
-        float: left;
-    }
-
-    .fs-14 {
-        font-size: 12px;
-    }
-
-    .tutto {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .button1 {
-        width: 270px;
-        margin-left: 100px;
-    }
-
-    .Immagine5 {
-        margin-left: 80px;
-        width: 300px;
-        height: 250px;
-    }
-
-    .Immagine6 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 30px;
-    }
-
-    .textt {
-        width: 90%;
-    }
-
-    .textt h1 {
-        font-size: 46px;
-    }
-
-
-    .fs-10 {
-        font-size: 13px;
-    }
-
-    .parole1 {
-        display: flex;
-        flex-direction: column;
-    }
-    .col-50 {
-        align-items: center;
-    }
-}
-@media screen and (max-width:400px) {
-    
-
-    
-
-    .close {
-        margin-left: 80%;
-        font-size: 60px;
-    }
-    .Immagine {
-        padding: left 40px;;
-    }
-    .Immagine1{
-       margin: 10px 0;
-    }
-    .text{
-        font-size: 15px;
-
-}
-    .button1 {
-        width: 300px;
-        margin-left: 50px;
-    }
-
-    .parole1 {
-        width: 100%;
-        width: 90%;
-    }
-
-    .Immagine5 {
-        margin-left: 50px;
-    }
-
-    .parole1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Immagine6 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 0px;
-    }
-
-    .Immagine8 img {
-        width: 350px;
-        height: 250px;
-        margin-right: 3000px;
-    }
-
-    .popup-content {
-        width: 100%;
-        height: 80%;
-    }
-
-    .testo-film {
-        width: 40%;
-    }
-
-    .close {
-        margin-right: 800px;
-        float: left;
-    }
-
-    .textt {
-        width: 90%;
-    }
-
-    .textt h1 {
-        font-size: 46px;
-    }
-
-    .fs-10 {
-        font-size: 20px;
-    }
-}
-
-/*CHI SIAMO*/
-@media screen and (max-width: 1400px) {
-
-    .button1 {
-        width: 100px;
-        height: 40px;
-        margin-top: 310px;
-    }
-        .textt{
-            display: inline-block;
-            padding-bottom: 60%;
-            margin-left: 45px
-        }
-
-    .Immagine5 {
-        margin-left: 40px;
-        margin-top: 150px;
-    
-    }
-    .presentazione {
-        margin-top: 70px;
-        padding-left: 45px;
-    }
-    }
-    @media screen and (max-width: 1200px) {
-        .button1 {
-         height: 40%;
-         width: 50%;
-         margin-top: 275px;
-    
-           
-        }
-    
-    
-        .Immagine5{
-    
-        height: 160px;
-         width: 210px;
-         margin-bottom: 55px;
-         margin-left: 10px;
-        }
-        .textt p {
-            
-            margin-bottom: 500px;
-            font-size:15px ;
-    
-        }
-        .Immagine6 img{
-            height: 300px;
-            width: 400px;
-              }
-            
-        }
-        @media screen and (max-width:992px) {
-        .Immagine5 {
-            width: 200px;
-            height: 140px ;
-        }
-        .button1 {
-            font-size: 10px;
-         
-            margin-top: 255px;
-    
-        }
-        .presentazione h1 {
-            font-size: 40px;
-            margin-top: 100px;
-        
-       
-        }
-        .parole1{
-            margin-top: 100px
-    
-        }
-        
-        .Immagine6 img{
-            height: 200px;
-            width: 270px;
-            margin-top: 100px;
-            margin-left: 40 px;
-        }
-        .textt p{
-            font-size: 14px;
-            padding-right: 20px;
-        }
-    }
-    @media screen and (max-width: 768px) {
-    
-    .presentazione p{
-        font-size: 13px;
-    }
-    .Immagine5 {
-        width:150px;
-        height: 110px;
-    }
-    .button1{
-        font-size: 8px;
-        margin-top: 229px;
-    }
-    .Immagine6 img{
-        width: 280px;
-        height: 210px;
-        margin-left: 55px;
-        margin-bottom: 00px;
-        
-    }
-    .parole1 {
-        margin-top: 30px;
-    }
-    .textt h1 {
-        font-size: 25px;
-    }
-    .close{
-        margin-left: 50px;
-        margin-top: 45px;
-     
-    }
-    .textt p{
-        margin-left: 10px;
-       margin-top: 35px;
-        
-    
-    }
-    
-    
-    
-    }
-    @media screen and (max-width:576px) {
-    .presentazione h1{
-        font-size: 30px;
-    }
-    .Immagine6 img{
-        width: 300px;
-    }
-
-    .tutto{
-        
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        
-        
-    }
-    .button1{
-        margin-left:120px ;
-        margin-top: 5px;
-        font-size: 15px;
-        
-    }
-    .tutto img{
-    
-        margin-top: 70px;
-        width: 250px;
-        height: 170px;
-        margin-left: 120px;
-        margin-bottom: 30px;
-    
-    }
-    .parole1{
-        margin-bottom: 1500px;
-        margin-right: 280px;
-    }
-    .textt p{
-        font-size: 9px;
-        padding-left: 190px;
-    
-     
-    }
-    .textt h1{
-        padding-left: 190px;
-        font-size: 20px;
-    }
-    .parole1 img{
-       
-       padding-top: 15px;
-        width: 200px;
-        height: 170px;
-        padding-left: 100px;
-    }
-    .close {
-        margin-right: 60px;
-    }
-    
-    .parole1 {
-        flex-direction: column;
-        grid-template-columns: 1fr;
-       padding-bottom: 300px;
-    }
-    }
-    @media screen and (max-width:400px) {
-    .tutto img {
-        margin-left: 55px;
-        width: 170px;
-        height: 110px;
-    }
-    .presentazione p {
-        font-size: 8px;
-    }
-    .presentazione h1{
-        font-size: 20px;
-        margin-right:55px;
-    }
-    .presentazione {
-        margin-bottom: 85px;
-        margin-right: 95px;
-    }
-    .button1{
-        margin-left: 55px;
-        font-size: 15px;
-    }
-    .Immagine6 img{
-        margin-left: 110px;
-    }
-    .close{
-        padding-right: 170px;
-        font-size: 20px;
-    }
-    }
-
 
