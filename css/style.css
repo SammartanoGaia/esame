@@ -855,33 +855,19 @@ button {
     .col-50 {
         width: calc(50% - 44px);
     }
-
-
-
 }
 @media screen and (max-width: 1200px) {
 
-
     .col-50 {
         width: calc(50% - 44px);
-
     }
-
-
-
     .Immagine img {
-        display: inline-block;
-       
-       
+        display: inline-block; 
     }
-
-    
     .text{
     display: inline-block;
     font-size: 40px;
-    margin-left: 50px;
-  
-    
+    margin-left: 50px;  
 }
 .close{
     margin-left: 100%;
@@ -913,10 +899,6 @@ button {
         width: 40%;
     }
 
-    .close {
-        margin-right: 400px;
-    }
-
 .film {
     margin: 0 auto;
     
@@ -928,11 +910,7 @@ button {
         width: 35%;
         align-items: center;
         margin: 0 auto;
-        
     }
-
- 
-
     .tutto {
         display: flex;
         flex-direction: column;
@@ -946,20 +924,12 @@ button {
         width: 270px;
         margin-left: 250px;
     }
-
-
-
-
     .Immagine5 {
         display: inline-block; 
         margin-left: 200px;
         width: 350px;
         height: 300px;
     }
-   
-    
-    
-
     .Immagine6 img {
         width: 350px;
         height: 250px;
@@ -974,16 +944,9 @@ button {
         font-size: 46px;
     }
 
-    .close {
-        margin-right: 30px;
-    }
-
     .fs-10 {
         font-size: 15px;
     }
-
-
-
     .parole1 {
         display: flex;
         flex-direction: column;
@@ -1001,46 +964,21 @@ button {
         height: 80%;
         margin-left: 200px;
     }
-
-    
-
-    .close {
-        margin-right: 90%;
-        
-    }
-
 }
-@media screen and (max-width:768px) {
-
-    
-    
+@media screen and (max-width:768px) {  
 .text {
     font-size: 15px;
-
 }
 .Immagine10 img {
 margin: 100px  80px;
-
-
-
 }
 .Immagine10 {
     padding-left: 35px;
-    
-    
-}
-.close{
-    margin-left: 90%;
-    font-size: 35px;
 }
     .col-50 {
         width: 100%;
         margin-left: 450px;
-       
     }
-
- 
-
     .tutto {
         display: flex;
         flex-direction: column;
@@ -1077,23 +1015,9 @@ margin: 100px  80px;
         margin-left: 0px;
         margin-right: 3000px;
     }
-
-    .popup-content {
-        width: 100%;
-        height: 80%;
-        margin-left: 30px;
-    }
-
     .testo-film {
         width: 40%;
     }
-
-    .close {
-        margin-right: 800px;
-        float: left;
-    }
-
-  
 
     .fs-10 {
         font-size: 15px;
@@ -1112,21 +1036,9 @@ margin: 100px  80px;
         margin-right: 3000px;
     }
 
-    .popup-content {
-        width: 100%;
-        height: 80%;
-        margin-left: 0px;
-    }
-
     .testo-film {
         width: 40%;
     }
-
-    .close {
-        margin-right: 800px;
-        float: left;
-    }
-
     .fs-14 {
         font-size: 12px;
     }
@@ -1175,14 +1087,6 @@ margin: 100px  80px;
     }
 }
 @media screen and (max-width:400px) {
-    
-
-    
-
-    .close {
-        margin-left: 80%;
-        font-size: 60px;
-    }
     .Immagine {
         padding: left 40px;;
     }
@@ -1224,20 +1128,9 @@ margin: 100px  80px;
         margin-right: 3000px;
     }
 
-    .popup-content {
-        width: 100%;
-        height: 80%;
-    }
-
     .testo-film {
         width: 40%;
     }
-
-    .close {
-        margin-right: 800px;
-        float: left;
-    }
-
     .textt {
         width: 90%;
     }
@@ -1363,20 +1256,10 @@ margin: 100px  80px;
     .textt h1 {
         font-size: 25px;
     }
-    .close{
-        margin-left: 50px;
-        margin-top: 45px;
-     
-    }
     .textt p{
         margin-left: 10px;
        margin-top: 35px;
-        
-    
     }
-    
-    
-    
     }
     @media screen and (max-width:576px) {
     .presentazione h1{
@@ -1429,9 +1312,6 @@ margin: 100px  80px;
         height: 170px;
         padding-left: 100px;
     }
-    .close {
-        margin-right: 60px;
-    }
     
     .parole1 {
         flex-direction: column;
@@ -1463,11 +1343,11 @@ margin: 100px  80px;
     .Immagine6 img{
         margin-left: 110px;
     }
-    .close{
-        padding-right: 170px;
-        font-size: 20px;
     }
-    }
+
+
+
+
 
 /*HOME*/
 @media screen and (max-width: 1400px) {
@@ -1644,7 +1524,7 @@ margin: 100px  80px;
         margin-left: 28px;
     }
     footer ul {
-        gap: 45px;
+        gap: 40px;
         font-size: 10px;
         padding-left: 15px;
     }
