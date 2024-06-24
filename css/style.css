@@ -2305,18 +2305,14 @@ padding-left: 0;
 
 }
 @media screen and (max-width: 1200px) {
-    header nav ul {
-        gap: 50px;
-    }
+
 
     .col-50 {
         width: calc(50% - 44px);
 
     }
 
-    footer ul {
-        gap: 70px;
-    }
+
 
     .Immagine img {
         display: inline-block;
@@ -2380,9 +2376,7 @@ padding-left: 0;
         
     }
 
-    footer ul {
-        gap: 50px;
-    }
+ 
 
     .tutto {
         display: flex;
@@ -2433,11 +2427,7 @@ padding-left: 0;
         font-size: 15px;
     }
 
-    footer ul {
-        gap: 70px;
-        font-size: 14px;
-        padding-left: 10px;
-    }
+
 
     .parole1 {
         display: flex;
@@ -2464,14 +2454,6 @@ padding-left: 0;
         
     }
 
-
-header nav ul a {
-    color: #DFD3BD;
-    text-decoration: none;
-    margin-right: 10px;
-    font-weight: bold;
-    padding-left: 50px;
-}
 }
 @media screen and (max-width:768px) {
 
@@ -2502,10 +2484,7 @@ margin: 100px  80px;
        
     }
 
-    footer ul {
-        gap: 30px;
-        width: 100%;
-    }
+ 
 
     .tutto {
         display: flex;
@@ -2559,19 +2538,10 @@ margin: 100px  80px;
         float: left;
     }
 
-    header nav ul {
-        gap: 40px;
-        padding-left: 10px;
-    }
+  
 
     .fs-10 {
         font-size: 15px;
-    }
-
-    footer ul {
-        gap: 40px;
-        font-size: 14px;
-        padding-left: 10px;
     }
 
     .parole1 {
@@ -2640,19 +2610,9 @@ margin: 100px  80px;
         font-size: 46px;
     }
 
-    header nav ul {
-        gap: 30px;
-        padding-left: 10px;
-    }
 
     .fs-10 {
         font-size: 13px;
-    }
-
-    footer ul {
-        gap: 22px;
-        font-size: 14px;
-        padding-left: 10px;
     }
 
     .parole1 {
@@ -2735,13 +2695,6 @@ margin: 100px  80px;
         font-size: 46px;
     }
 
-
-    header nav ul {
-        gap: 25px;
-        padding-left: 10px;
-        font-size: 12px;
-    }
-
     .fs-10 {
         font-size: 20px;
     }
@@ -2766,10 +2719,7 @@ margin: 100px  80px;
             padding-bottom: 60%;
             margin-left: 45px
         }
-      footer{
-        margin-top: 20%;
-    
-    }
+
     .Immagine5 {
         margin-left: 40px;
         margin-top: 150px;
@@ -2788,9 +2738,7 @@ margin: 100px  80px;
     
            
         }
-        .footer{
-            margin-top: 15%;
-        }
+    
     
         .Immagine5{
     
@@ -2892,9 +2840,7 @@ margin: 100px  80px;
     .Immagine6 img{
         width: 300px;
     }
-    footer{
-        margin-top: 45%;
-    }
+
     .tutto{
         
         flex-direction: column;
