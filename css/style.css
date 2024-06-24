@@ -2572,10 +2572,6 @@ margin: 100px  80px;
         float: left;
     }
 
-    .fine li a {
-        font-size: 12px;
-    }
-
     .fs-14 {
         font-size: 12px;
     }
@@ -2697,12 +2693,6 @@ margin: 100px  80px;
 
     .fs-10 {
         font-size: 20px;
-    }
-
-    footer ul {
-        gap: 25px;
-        font-size: 10px;
-        padding-left: 10px;
     }
 }
 
