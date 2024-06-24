@@ -1583,7 +1583,7 @@ margin: 100px  80px;
 @media screen and (max-width: 400px) {
     header nav ul{
         gap: 20px;
-        font-size: 8px;
+        font-size: 10px;
         padding-left: 0px;
         padding-top: 15px;
     }
@@ -1595,6 +1595,7 @@ margin: 100px  80px;
         gap: 25px;
         font-size: 8px;
         padding-left: 10px;
+        max-width: 400px
     }
 
     .sotto {
