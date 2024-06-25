@@ -603,9 +603,9 @@ button {
 /*TOKNOW*/
 .toknow{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colonne */
-    grid-template-rows: repeat(4, auto); /* 4 righe */
-    gap: 20px; /* Spaziatura tra le celle */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto); 
+    gap: 20px; 
     padding: 20px;
 }
 .grid-item {
@@ -723,9 +723,19 @@ button {
     width: 300px;
     height: 250px;
 }
+.close1{
+ color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 
-
-
+.close1:hover,
+.close1:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 
@@ -765,6 +775,17 @@ button {
     background-color: rgba(0, 0, 0, 0.9); 
     justify-content: center;
     align-items: center;
+}
+.popup {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.popup-content {
+    position: relative;
 }
 .Immagine5 {
     width: 270px;
@@ -812,6 +833,18 @@ button {
 .sotto6{
     padding-top: 50px;
 }
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close2:hover,
+.close2:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 
@@ -820,37 +853,7 @@ button {
 
 /* MEDIA QUERIES */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-   
-
-
-
-
-
-
-
-
-
-
-
-
+/*ENTERTAINMENT*/
 @media screen and (max-width:1400px) {
     .col-50 {
         width: calc(50% - 44px);
@@ -864,11 +867,6 @@ button {
     .Immagine img {
         display: inline-block; 
     }
-    .text{
-    display: inline-block;
-    font-size: 40px;
-    margin-left: 50px;  
-}
 .close{
     margin-left: 100%;
     font-size: 50px;
@@ -892,7 +890,6 @@ button {
     .popup-content {
         width: 100%;
         height: 80%;
-        margin-left: 250px;
     }
 
     .testo-film {
@@ -905,21 +902,14 @@ button {
 }
 }
 @media screen and (max-width:992px) {
-    
     .col-50 {
         width: 35%;
         align-items: center;
         margin: 0 auto;
     }
     .tutto {
-        display: flex;
         flex-direction: column;
     }
-
-    .button1 {
-        width: 270px;
-    }
-
     .button1 {
         width: 270px;
         margin-left: 250px;
@@ -935,40 +925,17 @@ button {
         height: 250px;
         margin-left: 30px;
     }
-
-    .textt {
-        width: 90%;
-    }
-
-    .textt h1 {
-        font-size: 46px;
-    }
-
     .fs-10 {
         font-size: 15px;
     }
-    .parole1 {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-    }
-
     .Immagine8 img {
         width: 350px;
         height: 250px;
         margin-left: 0px;
     }
-
-    .popup-content {
-        width: 100%;
-        height: 80%;
-        margin-left: 200px;
-    }
 }
 @media screen and (max-width:768px) {  
-.text {
-    font-size: 15px;
-}
+
 .Immagine10 img {
 margin: 100px  80px;
 }
@@ -979,36 +946,22 @@ margin: 100px  80px;
         width: 100%;
         margin-left: 450px;
     }
-    .tutto {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .button1 {
-        width: 270px;
-        margin-left: 250px;
-    }
-
     .Immagine5 {
         margin-left: 200px;
         width: 350px;
         height: 300px;
     }
-
     .Immagine6 img {
         width: 350px;
         height: 250px;
         margin-left: 30px;
     }
-
-    .textt {
-        width: 90%;
-    }
-
     .textt h1 {
         font-size: 46px;
     }
-
+    .parole1 {
+        flex-direction: column;
+    }
     .Immagine8 img {
         width: 350px;
         height: 250px;
@@ -1018,14 +971,8 @@ margin: 100px  80px;
     .testo-film {
         width: 40%;
     }
-
     .fs-10 {
         font-size: 15px;
-    }
-
-    .parole1 {
-        display: flex;
-        flex-direction: column;
     }
 }
 @media screen and (max-width:576px) {
@@ -1035,118 +982,91 @@ margin: 100px  80px;
         margin-left: 0px;
         margin-right: 3000px;
     }
-
     .testo-film {
         width: 40%;
     }
     .fs-14 {
         font-size: 12px;
     }
-
-    .tutto {
-        display: flex;
-        flex-direction: column;
-    }
-
     .button1 {
         width: 270px;
         margin-left: 100px;
     }
-
     .Immagine5 {
         margin-left: 80px;
         width: 300px;
         height: 250px;
     }
-
     .Immagine6 img {
         width: 350px;
         height: 250px;
         margin-left: 30px;
     }
-
-    .textt {
-        width: 90%;
-    }
-
-    .textt h1 {
-        font-size: 46px;
-    }
-
-
     .fs-10 {
         font-size: 13px;
     }
-
-    .parole1 {
-        display: flex;
-        flex-direction: column;
-    }
-    .col-50 {
-        align-items: center;
-    }
 }
 @media screen and (max-width:400px) {
+    .titolo p{
+        font-size: 12px;
+    }
+    .titolo h1{
+        font-size: 35px;
+        padding-top: 40px;
+    }
     .Immagine {
-        padding: left 40px;;
+        padding-left: 40px;
     }
     .Immagine1{
        margin: 10px 0;
     }
+    .film{
+        margin-left: -400px;
+    }
+    .songs{
+        margin-left: -400px;
+    }
     .text{
         font-size: 15px;
-
+}
+.col-50{
+    padding-top: 50px;
 }
     .button1 {
         width: 300px;
         margin-left: 50px;
     }
-
-    .parole1 {
-        width: 100%;
-        width: 90%;
-    }
-
-    .Immagine5 {
-        margin-left: 50px;
-    }
-
-    .parole1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Immagine6 img {
-        width: 350px;
-        height: 250px;
-        margin-left: 0px;
-    }
-
     .Immagine8 img {
-        width: 350px;
-        height: 250px;
-        margin-right: 3000px;
+        width: 230px;
+        padding-left: 90px;
+        height: 200px;
     }
-
-    .testo-film {
-        width: 40%;
+    .Immagine7 img{
+        width: 250px;
+        height: 200px;
     }
-    .textt {
-        width: 90%;
+    .Immagine7{
+        padding-left: 60px;
     }
-
-    .textt h1 {
-        font-size: 46px;
-    }
-
-    .fs-10 {
-        font-size: 20px;
+ .testo-film p{
+    font-size: 10px;
+    padding-left: 50px;
+  }
+  .testo-film h1{
+    font-size: 25px;
+    padding-left: 50px;
+  }
+  .close1{
+        width: 900px;       
+        margin-left: 0px;
+  padding-right: 0px;
+  height: 0px;
+  padding-bottom: 50px;
     }
 }
 
 /*CHI SIAMO*/
 @media screen and (max-width: 1400px) {
-
     .button1 {
         width: 100px;
         height: 40px;
@@ -1157,7 +1077,6 @@ margin: 100px  80px;
             padding-bottom: 60%;
             margin-left: 45px
         }
-
     .Immagine5 {
         margin-left: 40px;
         margin-top: 150px;
@@ -1168,18 +1087,13 @@ margin: 100px  80px;
         padding-left: 45px;
     }
     }
-    @media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
         .button1 {
          height: 40%;
          width: 50%;
-         margin-top: 275px;
-    
-           
+         margin-top: 275px; 
         }
-    
-    
         .Immagine5{
-    
         height: 160px;
          width: 210px;
          margin-bottom: 55px;
@@ -1194,19 +1108,16 @@ margin: 100px  80px;
         .Immagine6 img{
             height: 300px;
             width: 400px;
-              }
-            
+              } 
         }
-        @media screen and (max-width:992px) {
+ @media screen and (max-width:992px) {
         .Immagine5 {
             width: 200px;
             height: 140px ;
         }
         .button1 {
             font-size: 10px;
-         
             margin-top: 255px;
-    
         }
         .presentazione h1 {
             font-size: 40px;
@@ -1215,23 +1126,22 @@ margin: 100px  80px;
        
         }
         .parole1{
-            margin-top: 100px
-    
+            margin-top: 100px;
         }
-        
         .Immagine6 img{
             height: 200px;
             width: 270px;
             margin-top: 100px;
-            margin-left: 40 px;
+            margin-left: 40px;
         }
         .textt p{
             font-size: 14px;
             padding-right: 20px;
         }
     }
-    @media screen and (max-width: 768px) {
-    
+
+@media screen and (max-width: 768px) {
+
     .presentazione p{
         font-size: 13px;
     }
@@ -1247,7 +1157,7 @@ margin: 100px  80px;
         width: 280px;
         height: 210px;
         margin-left: 55px;
-        margin-bottom: 00px;
+        margin-bottom: 0px;
         
     }
     .parole1 {
@@ -1268,28 +1178,21 @@ margin: 100px  80px;
     .Immagine6 img{
         width: 300px;
     }
-
     .tutto{
-        
         flex-direction: column;
         grid-template-columns: 1fr;
-        
-        
     }
     .button1{
         margin-left:120px ;
         margin-top: 5px;
-        font-size: 15px;
-        
+        font-size: 15px; 
     }
     .tutto img{
-    
         margin-top: 70px;
         width: 250px;
         height: 170px;
         margin-left: 120px;
         margin-bottom: 30px;
-    
     }
     .parole1{
         margin-bottom: 1500px;
@@ -1298,21 +1201,17 @@ margin: 100px  80px;
     .textt p{
         font-size: 9px;
         padding-left: 190px;
-    
-     
     }
     .textt h1{
         padding-left: 190px;
         font-size: 20px;
     }
     .parole1 img{
-       
        padding-top: 15px;
         width: 200px;
         height: 170px;
         padding-left: 100px;
     }
-    
     .parole1 {
         flex-direction: column;
         grid-template-columns: 1fr;
@@ -1321,32 +1220,52 @@ margin: 100px  80px;
     }
     @media screen and (max-width:400px) {
     .tutto img {
-        margin-left: 55px;
-        width: 170px;
-        height: 110px;
+        margin-left: 75px;
+        width: 200px;
+        height: 150px;
     }
     .presentazione p {
         font-size: 8px;
     }
     .presentazione h1{
-        font-size: 20px;
-        margin-right:55px;
+        font-size: 25px;
     }
     .presentazione {
-        margin-bottom: 85px;
+        margin-bottom: 0px;
         margin-right: 95px;
+        margin-left: -35px;
+        margin-top: -70px;
     }
-    .button1{
-        margin-left: 55px;
+    .presentazione h5{
         font-size: 15px;
     }
+    .button1{
+        margin-left: 83px;
+    }
     .Immagine6 img{
-        margin-left: 110px;
+        padding-left: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  width: 300px;
+  height: 250px;
     }
+.textt1 h1{
+    padding-left: 120px;
+  height: 48px;
+  width: 300px;
+  font-size: 20px;
+}
+.textt1 p{
+    font-size: 10px;
+    padding-left: 70px;
+  width: 300px;
+}
+.close2{
+    margin-left: 100%;
+  padding-right: 25px;
+}
     }
-
-
-
 
 
 /*HOME*/
@@ -1390,26 +1309,22 @@ margin: 100px  80px;
         gap: 50px;
         padding-left: 45px;
     }
-
     .luna-home h1 {
         font-size: 360px;
     }
     footer ul {
         gap: 120px;
     }
-
     .image-moon img {
         width: 1000px;
         height: 1000px;
     }
-
     .image-moon {
         top: 450px;
     }
     .sotto {
         padding-top: 1600px;
     }
-   
 }
 @media screen and (max-width: 992px) {
     header nav ul a {
@@ -1446,31 +1361,25 @@ margin: 100px  80px;
     header nav ul a {
         padding-left: 3px;
     }
-
     .luna-home h1 {
         font-size: 225px; 
         margin-top: 220px;
     }
-
     footer ul {
         gap: 40px;
         font-size: 13px;
     }
-
     .col-100 {
         width: 90%;
         margin-bottom: 50px;
     }
-
     .image-moon img {
         width: 650px;
         height: 650px;
     }
-
     .sotto {
         padding-top: 1070px;
     }
-
     .image-moon {
         top: 340px;
     }
@@ -1500,7 +1409,7 @@ margin: 100px  80px;
     }
     .container1 .Read li a{
         font-size: 20px;
-        margin-left: 16px;
+        margin-left: 14px;
     }
     .lune .grid-item{
         padding-right: 0px;  
@@ -1517,26 +1426,39 @@ margin: 100px  80px;
         font-size: 10px;
         padding-left: 0px;
         padding-top: 10px;
+       
     }
     .luna-home h1 {
         margin-top: 175px;
         font-size: 175px;
-        margin-left: 28px;
+        margin-left: 5px;
     }
     footer ul {
         gap: 40px;
         font-size: 10px;
-        padding-left: 15px;
+        padding-left: 15px; 
+        padding-right: 20px;
     }
-
+    .cool1{
+        margin-left:100px ;
+    }
+    .cool{
+        font-size: 15px;
+        margin-left: -60px;
+    }
+    .content{
+        width: 200px;
+        margin-top: -40px;
+    }
+    .caratteristiche p{
+        font-size: 15px;
+    }
     .sotto {
         padding-top: 860px;
     }
-
     .image-moon {
         top: 270px;
     }
-
     .image-moon img {
         width: 500px;
         height: 500px;
@@ -1545,7 +1467,6 @@ margin: 100px  80px;
     .container1 .grid-item p{
         font-size: 8px;
     }
-
     .imagee img{
         width: 300px;
         height: 80px;
@@ -1569,7 +1490,7 @@ margin: 100px  80px;
     }
     .container1 .Read li a{
         font-size: 20px;
-        margin-left: 14px;
+        margin-left: 13px;
     }
     .lune .grid-item{
         padding-right: 0px;  
@@ -1582,52 +1503,54 @@ margin: 100px  80px;
 }
 @media screen and (max-width: 400px) {
     header nav ul{
-        gap: 20px;
-        font-size: 10px;
-        padding-left: 0px;
-        padding-top: 15px;
+        gap: 13px;
+        max-width: 400px;
     }
     .luna-home h1 {
-        font-size: 130px;
-        margin-top: 140px;
+        font-size: 115px;
+        margin-top: 130px;
+        margin-left: 0;
     }
     footer ul {
         gap: 25px;
         font-size: 8px;
         padding-left: 10px;
-        max-width: 400px
+        width: 400px;
+        padding-right: 20px;
     }
-
     .sotto {
         padding-top: 700px;
     }
-
     .image-moon {
-        top: 220px;
-        margin-left: -25px;
+        top: 200px;
+        margin-left: -10px;
     }
     .cool1{
-        margin-left:50px ;
+        margin-left:60px ;
     }
     .cool{
         font-size: 10px;
-        margin-left: -30px;
+        margin-left: -45px;
     }
     .content{
         width: 160px;
+        margin-top: -40px;
+    }
+    .caratteristiche p{
+        font-size: 12px;
     }
     .image-moon img {
-        width: 400px;
-        height: 400px;
-        padding-left: 20px;
+        width: 360px;
+        height: 360px;
+        padding-left: 0px;
     }
     .container1 .grid-item p{
         font-size: 7px;
+        margin-left: -20px;
     }
-
-    .imagee img{
-        width: 270px;
-        height: 80px;
+   .container1 .imagee img{
+        width: 340px;
+        height: 90px;
     }
     .container1 .text1 h1{
         font-size: 25px;
@@ -1635,7 +1558,7 @@ margin: 100px  80px;
         padding-left: 15px;
     }
     .container1 .text1 p{
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 15px;
     }
     .container1{
@@ -1648,15 +1571,11 @@ margin: 100px  80px;
     }
     .container1 .Read li a{
         font-size: 20px;
-        margin-left: 14px;
+        margin-left: 12px;
     }
     .lune .grid-item{
-        padding-right: 0px;  
+        padding-right: 20px;  
         padding-left: 20px;
-    }
-    .imagee img{
-        width: 380px;
-        height: 100px;
     }
 }
 
@@ -2195,7 +2114,6 @@ padding-top: 30px;
 }
 .container{
     height: 740px;
-
 }
 .containerr .text{
     margin-top: 30px;
@@ -2211,7 +2129,6 @@ padding-top: 30px;
 }
    .containerr .text h1{
     font-size: 25px;
-
    }
    .containerr .text p{
     font-size: 10px;
@@ -2233,7 +2150,6 @@ padding-top: 30px;
     padding-top: 60px;
 }
 .overlay{
-    display: flex;
   padding-top: 0px;
   height: 8200px;
 }
@@ -2282,8 +2198,11 @@ padding-top: 30px;
 .parole{
     flex-direction: column;
 }
+.textt{
+    margin-left: 10px;
+}
 .parole .textt p{
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 9px;
 }
 .parole h1{
@@ -2337,7 +2256,6 @@ padding-top: 30px;
   width: 350px;
   height: 100px;
 }
-
 .image3 img{
     width: 200px;
     height: 300px;
@@ -2366,7 +2284,6 @@ padding-left: 0;
     width: 1400px;
     height: 1300px;
    }
-
 }
 @media screen and (max-width: 1200px){
     .astronauta img{
@@ -2795,4 +2712,3 @@ padding-left: 0;
         gap: 35px; 
     }
 }
-
